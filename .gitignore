@@ -50,4 +50,6 @@ build-iPhoneSimulator/
 .rvmrc
 
 # Don't include generated site
-/docs/_site
+_site
+.sass-cache
+.jekyll-metadata
