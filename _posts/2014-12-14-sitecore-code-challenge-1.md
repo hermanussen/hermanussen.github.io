@@ -6,6 +6,8 @@ author: Robin Hermanussen
 layout: post
 guid: http://hermanussen.eu/sitecore/wordpress/?p=246
 permalink: /2014/12/sitecore-code-challenge-1/
+redirect_from:
+  - /sitecore/wordpress/2014/12/sitecore-code-challenge-1/
 aktt_notify_twitter:
   - 'no'
 categories:

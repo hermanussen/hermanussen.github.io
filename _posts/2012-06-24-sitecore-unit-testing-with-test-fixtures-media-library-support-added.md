@@ -6,6 +6,8 @@ author: Robin Hermanussen
 layout: post
 guid: http://hermanussen.eu/sitecore/wordpress/?p=170
 permalink: /2012/06/sitecore-unit-testing-with-test-fixtures-media-library-support-added/
+redirect_from:
+  - /sitecore/wordpress/2012/06/sitecore-unit-testing-with-test-fixtures-media-library-support-added/
 aktt_notify_twitter:
   - 'yes'
 aktt_tweeted:

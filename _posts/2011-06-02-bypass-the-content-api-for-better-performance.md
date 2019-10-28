@@ -6,6 +6,8 @@ author: Robin Hermanussen
 layout: post
 guid: http://hermanussen.eu/sitecore/wordpress/?p=74
 permalink: /2011/06/bypass-the-content-api-for-better-performance/
+redirect_from:
+  - /sitecore/wordpress/2011/06/bypass-the-content-api-for-better-performance/
 aktt_notify_twitter:
   - 'yes'
 aktt_tweeted:
@@ -58,6 +60,6 @@ Place the query in a stored procedure if you want to use this method in producti
 
 In my opinion, any performance improvement (especially if it has significant drawbacks) must be proven to be worth it! So I&#8217;ve measured the speed of this method and a simpler one against the normal Sitecore way of doing things. Here&#8217;s the result:
 
-<img class="alignnone" title="Speed measuring results" src="/sitecore/wordpress/wp-content/uploads/bypass_content_api_screenshot.png" alt="" width="519" height="161" /> 
+<img class="alignnone" title="Speed measuring results" src="/wp-content/uploads/bypass_content_api_screenshot.png" alt="" width="519" height="161" /> 
 
 As you can see, the performance gain can be significant. So if the drawbacks are acceptable, this may be a good option. Here is the aspx so you can test it for yourself:

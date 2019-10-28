@@ -6,6 +6,8 @@ author: Robin Hermanussen
 layout: post
 guid: http://hermanussen.eu/sitecore/wordpress/?p=159
 permalink: /2012/06/t-sql-pocket-knife-code/
+redirect_from:
+  - /sitecore/wordpress/2012/06/t-sql-pocket-knife-code/
 aktt_notify_twitter:
   - 'yes'
 aktt_tweeted:
@@ -24,6 +26,6 @@ After running this script (be sure to change the statement in line 1 to match yo
 
 This results in:
 
-[<img class="size-full wp-image-160 alignnone" title="Screenshot of the result of the previous query" src="http://hermanussen.eu/sitecore/wordpress/wp-content/uploads/2012/06/screenshot_query_result.png" alt="Screenshot of the result of the previous query" width="635" height="142" srcset="http://hermanussen.eu/sitecore/wordpress/wp-content/uploads/2012/06/screenshot_query_result.png 635w, http://hermanussen.eu/sitecore/wordpress/wp-content/uploads/2012/06/screenshot_query_result-300x67.png 300w" sizes="(max-width: 635px) 100vw, 635px" />](http://hermanussen.eu/sitecore/wordpress/wp-content/uploads/2012/06/screenshot_query_result.png)
+[<img class="size-full wp-image-160 alignnone" title="Screenshot of the result of the previous query" src="/wp-content/uploads/2012/06/screenshot_query_result.png" alt="Screenshot of the result of the previous query" width="635" height="142" srcset="/wp-content/uploads/2012/06/screenshot_query_result.png 635w, /wp-content/uploads/2012/06/screenshot_query_result-300x67.png 300w" sizes="(max-width: 635px) 100vw, 635px" />](/wp-content/uploads/2012/06/screenshot_query_result.png)
 
 Since the SC_GetPath function uses recursion, make sure your query does not go out of control. SQL Server does <a title="Article about SQL Server recursion limit" href="http://www.sqlservercentral.com/blogs/juggling_with_sql/2011/06/04/maximum-recursion-possible-with-cte-in-sql-server-2005-2008/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.sqlservercentral.com']);">not allow too many recursions</a> by default.

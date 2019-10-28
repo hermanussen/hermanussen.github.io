@@ -6,6 +6,8 @@ author: Robin Hermanussen
 layout: post
 guid: http://hermanussen.eu/sitecore/wordpress/?p=251
 permalink: /2015/04/generating-sitecore-code-without-tds/
+redirect_from:
+  - /sitecore/wordpress/2015/04/generating-sitecore-code-without-tds/
 aktt_notify_twitter:
   - 'yes'
 aktt_tweeted:
@@ -30,7 +32,7 @@ But if you can&#8217;t use TDS (e.g. because of the costs), then here&#8217;s a 
 For more information, look at the <a title="Sitecore.CodeGenerator documentation" href="https://github.com/hermanussen/sitecore.codegenerator#readme" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://github.com']);">documentation here</a>, and you can clone/fork the project on <a title="Sitecore.CodeGenerator on GitHub" href="https://github.com/hermanussen/sitecore.codegenerator" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://github.com']);">GitHub here</a>.
 
 <div id="attachment_253" style="width: 849px" class="wp-caption alignleft">
-  <a href="http://hermanussen.eu/sitecore/wordpress/wp-content/uploads/2015/04/idog_generated_code_example.png" ><img aria-describedby="caption-attachment-253" class="size-full wp-image-253" title="IDog interface example generated using Sitecore.CodeGenerator" src="http://hermanussen.eu/sitecore/wordpress/wp-content/uploads/2015/04/idog_generated_code_example.png" alt="IDog interface example generated using Sitecore.CodeGenerator" width="839" height="385" srcset="http://hermanussen.eu/sitecore/wordpress/wp-content/uploads/2015/04/idog_generated_code_example.png 839w, http://hermanussen.eu/sitecore/wordpress/wp-content/uploads/2015/04/idog_generated_code_example-300x137.png 300w" sizes="(max-width: 839px) 100vw, 839px" /></a>
+  <a href="/wp-content/uploads/2015/04/idog_generated_code_example.png" ><img aria-describedby="caption-attachment-253" class="size-full wp-image-253" title="IDog interface example generated using Sitecore.CodeGenerator" src="/wp-content/uploads/2015/04/idog_generated_code_example.png" alt="IDog interface example generated using Sitecore.CodeGenerator" width="839" height="385" srcset="/wp-content/uploads/2015/04/idog_generated_code_example.png 839w, /wp-content/uploads/2015/04/idog_generated_code_example-300x137.png 300w" sizes="(max-width: 839px) 100vw, 839px" /></a>
   
   <p id="caption-attachment-253" class="wp-caption-text">
     IDog interface example generated using Sitecore.CodeGenerator

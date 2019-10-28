@@ -6,6 +6,8 @@ author: Robin Hermanussen
 layout: post
 guid: http://hermanussen.eu/sitecore/wordpress/?p=79
 permalink: /2011/09/sitecore-editor-android-app/
+redirect_from:
+  - /sitecore/wordpress/2011/09/sitecore-editor-android-app/
 aktt_notify_twitter:
   - 'yes'
 aktt_tweeted:

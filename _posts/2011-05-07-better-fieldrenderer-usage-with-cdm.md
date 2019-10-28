@@ -6,6 +6,8 @@ author: Robin Hermanussen
 layout: post
 guid: http://hermanussen.eu/sitecore/wordpress/?p=50
 permalink: /2011/05/better-fieldrenderer-usage-with-cdm/
+redirect_from:
+  - /sitecore/wordpress/2011/05/better-fieldrenderer-usage-with-cdm/
 aktt_notify_twitter:
   - 'yes'
 aktt_tweeted:

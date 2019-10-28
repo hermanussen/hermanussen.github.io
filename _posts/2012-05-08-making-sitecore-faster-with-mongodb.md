@@ -6,6 +6,8 @@ author: Robin Hermanussen
 layout: post
 guid: http://hermanussen.eu/sitecore/wordpress/?p=107
 permalink: /2012/05/making-sitecore-faster-with-mongodb/
+redirect_from:
+  - /sitecore/wordpress/2012/05/making-sitecore-faster-with-mongodb/
 aktt_notify_twitter:
   - 'yes'
 aktt_tweeted:
@@ -250,7 +252,7 @@ Note that the <a title="MongoDB safe mode explanation" href="http://stackoverflo
 
 Here&#8217;s a chart with the results:
 
-[<img class="size-full wp-image-124 alignnone" title="DataProvider speed measurement results" src="http://hermanussen.eu/sitecore/wordpress/wp-content/uploads/2012/05/DataProvider-speed-measurement-results.png" alt="DataProvider speed measurement results" width="999" height="362" srcset="http://hermanussen.eu/sitecore/wordpress/wp-content/uploads/2012/05/DataProvider-speed-measurement-results.png 999w, http://hermanussen.eu/sitecore/wordpress/wp-content/uploads/2012/05/DataProvider-speed-measurement-results-300x108.png 300w" sizes="(max-width: 999px) 100vw, 999px" />](http://hermanussen.eu/sitecore/wordpress/wp-content/uploads/2012/05/DataProvider-speed-measurement-results.png)
+[<img class="size-full wp-image-124 alignnone" title="DataProvider speed measurement results" src="/wp-content/uploads/2012/05/DataProvider-speed-measurement-results.png" alt="DataProvider speed measurement results" width="999" height="362" srcset="/wp-content/uploads/2012/05/DataProvider-speed-measurement-results.png 999w, /wp-content/uploads/2012/05/DataProvider-speed-measurement-results-300x108.png 300w" sizes="(max-width: 999px) 100vw, 999px" />](/wp-content/uploads/2012/05/DataProvider-speed-measurement-results.png)
 
 This may seem very impressive, but keep in mind that these results do NOT necessarily translate into similar improvements in speed for your entire website. A few things to keep in mind:
 

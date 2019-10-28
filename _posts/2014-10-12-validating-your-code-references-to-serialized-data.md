@@ -6,6 +6,8 @@ author: Robin Hermanussen
 layout: post
 guid: http://hermanussen.eu/sitecore/wordpress/?p=241
 permalink: /2014/10/validating-your-code-references-to-serialized-data/
+redirect_from:
+  - /sitecore/wordpress/2014/10/validating-your-code-references-to-serialized-data/
 aktt_notify_twitter:
   - 'no'
 categories:

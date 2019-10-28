@@ -6,6 +6,8 @@ author: Robin Hermanussen
 layout: post
 guid: http://hermanussen.eu/sitecore/wordpress/?p=179
 permalink: /2013/03/use-item-wrappers-as-models-in-sitecore-mvc/
+redirect_from:
+  - /sitecore/wordpress/2013/03/use-item-wrappers-as-models-in-sitecore-mvc/
 aktt_notify_twitter:
   - 'yes'
 aktt_tweeted:

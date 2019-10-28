@@ -6,6 +6,8 @@ author: Robin Hermanussen
 layout: post
 guid: http://hermanussen.eu/sitecore/wordpress/?p=90
 permalink: /2011/12/happy-holidays-bookmarklet/
+redirect_from:
+  - /sitecore/wordpress/2011/12/happy-holidays-bookmarklet/
 aktt_notify_twitter:
   - 'yes'
 aktt_tweeted:

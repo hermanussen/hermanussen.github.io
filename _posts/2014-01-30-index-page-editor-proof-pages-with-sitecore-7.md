@@ -6,6 +6,8 @@ author: Robin Hermanussen
 layout: post
 guid: http://hermanussen.eu/sitecore/wordpress/?p=219
 permalink: /2014/01/index-page-editor-proof-pages-with-sitecore-7/
+redirect_from:
+  - /sitecore/wordpress/2014/01/index-page-editor-proof-pages-with-sitecore-7/
 aktt_notify_twitter:
   - 'no'
 categories:

@@ -6,6 +6,8 @@ author: Robin Hermanussen
 layout: post
 guid: http://hermanussen.eu/sitecore/wordpress/?p=208
 permalink: /2013/05/turn-any-sitecore-package-into-a-nuget-package/
+redirect_from:
+  - /sitecore/wordpress/2013/05/turn-any-sitecore-package-into-a-nuget-package/
 aktt_notify_twitter:
   - 'yes'
 aktt_tweeted:
@@ -27,7 +29,7 @@ I recently posted this idea on Twitter:
 
 And it didn&#8217;t take me that long to actually implement it. Follow these steps to turn any Sitecore package into a NuGet package and share it with the world.
 
-  1. Download the <a title="Command line tool direct download" href="http://hermanussen.eu/sitecore/wordpress/wp-content/uploads/CreateSitecoreNuGetPackage.exe" onclick="javascript:_gaq.push(['_trackEvent','download','http://hermanussen.eu/sitecore/wordpress/wp-content/uploads/CreateSitecoreNuGetPackage.exe']);">CreateSitecoreNuGetPackage.exe file here</a> or build it yourself with <a title="CreateSitecoreNuGetPackage on GitHub" href="https://github.com/hermanussen/CreateSitecoreNuGetPackage" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://github.com']);">the code from GitHub</a>.
+  1. Download the <a title="Command line tool direct download" href="/wp-content/uploads/CreateSitecoreNuGetPackage.exe" onclick="javascript:_gaq.push(['_trackEvent','download','/wp-content/uploads/CreateSitecoreNuGetPackage.exe']);">CreateSitecoreNuGetPackage.exe file here</a> or build it yourself with <a title="CreateSitecoreNuGetPackage on GitHub" href="https://github.com/hermanussen/CreateSitecoreNuGetPackage" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://github.com']);">the code from GitHub</a>.
   2. Put the files &#8220;Sitecore.Kernel.dll&#8221; and &#8220;Sitecore.Zip.dll&#8221; in the same folder.
   3. Create your package in the Package Manager and export the ZIP file.
   4. Run the following command from the command line:  

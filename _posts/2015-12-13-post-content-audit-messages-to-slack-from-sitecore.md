@@ -6,6 +6,8 @@ author: Robin Hermanussen
 layout: post
 guid: http://hermanussen.eu/sitecore/wordpress/?p=271
 permalink: /2015/12/post-content-audit-messages-to-slack-from-sitecore/
+redirect_from:
+  - /sitecore/wordpress/2015/12/post-content-audit-messages-to-slack-from-sitecore/
 aktt_notify_twitter:
   - 'no'
 categories:
@@ -17,6 +19,6 @@ We&#8217;ve been using Slack with our team internally at our company as well. An
 
 It was about time that we helped our content editors out by providing an integration with Sitecore itself. That&#8217;s why I built <a title="Sitecore.Slack.IncomingWebhookForEvents on GitHub" href="https://github.com/hermanussen/Sitecore.Slack.IncomingWebhookForEvents" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://github.com']);">the Sitecore.Slack.IncomingWebhookForEvents module</a>. Whenever someone edits a content item, publishes or installs a package, others will know about it through Slack!
 
-[<img class="aligncenter size-full wp-image-273" title="slack_integration_example" src="http://hermanussen.eu/sitecore/wordpress/wp-content/uploads/2015/12/slack_integration_example.png" alt="" width="1062" height="498" srcset="http://hermanussen.eu/sitecore/wordpress/wp-content/uploads/2015/12/slack_integration_example.png 1062w, http://hermanussen.eu/sitecore/wordpress/wp-content/uploads/2015/12/slack_integration_example-300x140.png 300w, http://hermanussen.eu/sitecore/wordpress/wp-content/uploads/2015/12/slack_integration_example-1024x480.png 1024w" sizes="(max-width: 1062px) 100vw, 1062px" />](http://hermanussen.eu/sitecore/wordpress/wp-content/uploads/2015/12/slack_integration_example.png)
+[<img class="aligncenter size-full wp-image-273" title="slack_integration_example" src="/wp-content/uploads/2015/12/slack_integration_example.png" alt="" width="1062" height="498" srcset="/wp-content/uploads/2015/12/slack_integration_example.png 1062w, /wp-content/uploads/2015/12/slack_integration_example-300x140.png 300w, /wp-content/uploads/2015/12/slack_integration_example-1024x480.png 1024w" sizes="(max-width: 1062px) 100vw, 1062px" />](/wp-content/uploads/2015/12/slack_integration_example.png)
 
 Follow the <a title="Instructions on module GitHub page" href="https://github.com/hermanussen/Sitecore.Slack.IncomingWebhookForEvents#sitecoreslackincomingwebhookforevents" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://github.com']);">instructions on the GitHub page</a> to install this module (using NuGet) for your project.

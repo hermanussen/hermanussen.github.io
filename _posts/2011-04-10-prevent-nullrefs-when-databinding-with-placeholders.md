@@ -6,6 +6,8 @@ author: Robin Hermanussen
 layout: post
 guid: http://hermanussen.eu/sitecore/wordpress/?p=43
 permalink: /2011/04/prevent-nullrefs-when-databinding-with-placeholders/
+redirect_from:
+  - /sitecore/wordpress/2011/04/prevent-nullrefs-when-databinding-with-placeholders/
 aktt_notify_twitter:
   - 'yes'
 aktt_tweeted:

@@ -6,6 +6,8 @@ author: Robin Hermanussen
 layout: post
 guid: http://hermanussen.eu/sitecore/wordpress/?p=226
 permalink: /2014/09/unit-testing-with-sitecore-fakedb-and-deserialized-data/
+redirect_from:
+  - /sitecore/wordpress/2014/09/unit-testing-with-sitecore-fakedb-and-deserialized-data/
 aktt_notify_twitter:
   - 'no'
 categories:

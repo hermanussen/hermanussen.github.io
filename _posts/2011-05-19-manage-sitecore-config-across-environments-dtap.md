@@ -6,6 +6,8 @@ author: Robin Hermanussen
 layout: post
 guid: http://hermanussen.eu/sitecore/wordpress/?p=56
 permalink: /2011/05/manage-sitecore-config-across-environments-dtap/
+redirect_from:
+  - /sitecore/wordpress/2011/05/manage-sitecore-config-across-environments-dtap/
 aktt_notify_twitter:
   - 'yes'
 aktt_tweeted:

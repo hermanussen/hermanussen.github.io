@@ -247,6 +247,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-feed (= 0.11.0)
+  jekyll-redirect-from (= 0.14.0)
   jekyll-theme-clean-blog
   tzinfo-data
 

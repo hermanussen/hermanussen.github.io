@@ -6,6 +6,8 @@ author: Robin Hermanussen
 layout: post
 guid: http://hermanussen.eu/sitecore/wordpress/?p=27
 permalink: /2011/03/compileddomainmodel-0-4-0-0-released/
+redirect_from:
+  - /sitecore/wordpress/2011/03/compileddomainmodel-0-4-0-0-released/
 aktt_notify_twitter:
   - 'yes'
 aktt_tweeted:

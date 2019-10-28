@@ -6,6 +6,8 @@ author: Robin Hermanussen
 layout: post
 guid: http://hermanussen.eu/sitecore/wordpress/?p=277
 permalink: /2016/04/generating-sitecore-code-without-tds-and-with-rainbow/
+redirect_from:
+  - /sitecore/wordpress/2016/04/generating-sitecore-code-without-tds-and-with-rainbow/
 aktt_notify_twitter:
   - 'no'
 categories:
@@ -13,7 +15,7 @@ categories:
 ---
 About a year ago, [I posted about a way to generate code](http://hermanussen.eu/sitecore/wordpress/2015/04/generating-sitecore-code-without-tds/ "Previous post") from your Sitecore data without the need to use TDS. Since then, a new version of <a title="Unicorn" href="https://www.nuget.org/packages/Unicorn/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.nuget.org']);">Unicorn</a> was released, that supports a new serialization format called <a title="Rainbow serialization format" href="https://www.nuget.org/packages/Rainbow" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.nuget.org']);">Rainbow</a>.
 
-[<img class="aligncenter size-full wp-image-278" title="rainbow" src="http://hermanussen.eu/sitecore/wordpress/wp-content/uploads/2016/04/rainbow.jpg" alt="" width="400" height="400" srcset="http://hermanussen.eu/sitecore/wordpress/wp-content/uploads/2016/04/rainbow.jpg 400w, http://hermanussen.eu/sitecore/wordpress/wp-content/uploads/2016/04/rainbow-150x150.jpg 150w, http://hermanussen.eu/sitecore/wordpress/wp-content/uploads/2016/04/rainbow-300x300.jpg 300w" sizes="(max-width: 400px) 100vw, 400px" />](http://hermanussen.eu/sitecore/wordpress/wp-content/uploads/2016/04/rainbow.jpg)The description on <a title="Rainbow on GitHub" href="https://github.com/kamsar/Rainbow" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://github.com']);">Rainbow&#8217;s GitHub page</a>: _An advanced serialization and comparison system for Sitecore. Designed for easy merging with YAML-based serialization, and a generic merge/deserialization framework. Works well with Unicorn, or by itself._
+[<img class="aligncenter size-full wp-image-278" title="rainbow" src="/wp-content/uploads/2016/04/rainbow.jpg" alt="" width="400" height="400" srcset="/wp-content/uploads/2016/04/rainbow.jpg 400w, /wp-content/uploads/2016/04/rainbow-150x150.jpg 150w, /wp-content/uploads/2016/04/rainbow-300x300.jpg 300w" sizes="(max-width: 400px) 100vw, 400px" />](/wp-content/uploads/2016/04/rainbow.jpg)The description on <a title="Rainbow on GitHub" href="https://github.com/kamsar/Rainbow" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://github.com']);">Rainbow&#8217;s GitHub page</a>: _An advanced serialization and comparison system for Sitecore. Designed for easy merging with YAML-based serialization, and a generic merge/deserialization framework. Works well with Unicorn, or by itself._
 
 Unfortunately, the code generator didn&#8217;t support this format. But with a little tweaking, I&#8217;ve now added support for it!
 

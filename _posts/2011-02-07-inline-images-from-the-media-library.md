@@ -6,6 +6,8 @@ author: Robin Hermanussen
 layout: post
 guid: http://hermanussen.eu/sitecore/wordpress/?p=12
 permalink: /2011/02/inline-images-from-the-media-library/
+redirect_from:
+  - /sitecore/wordpress/2011/02/inline-images-from-the-media-library/
 aktt_notify_twitter:
   - 'yes'
 aktt_tweeted:
