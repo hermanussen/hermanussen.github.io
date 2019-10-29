@@ -15,7 +15,7 @@ aktt_tweeted:
 categories:
   - code snippets
 ---
-I recently wrote a post on [Sitecore unit testing with test fixtures](http://hermanussen.eu/sitecore/wordpress/2012/06/sitecore-unit-testing-with-test-fixtures/ "Link to post about Sitecore unit testing with test fixtures"). I&#8217;ve now added support for the media library (updated in <a title="The FixtureDataProvider project on GitHub" href="https://github.com/hermanussen/Sitecore-FixtureDataProvider">the project on GitHub</a>).
+I recently wrote a post on [Sitecore unit testing with test fixtures]({% post_url 2012-06-10-sitecore-unit-testing-with-test-fixtures %} "Link to post about Sitecore unit testing with test fixtures"). I&#8217;ve now added support for the media library (updated in <a title="The FixtureDataProvider project on GitHub" href="https://github.com/hermanussen/Sitecore-FixtureDataProvider">the project on GitHub</a>).
 
 So now, you can also unit test code that imports an image into the media library.
 

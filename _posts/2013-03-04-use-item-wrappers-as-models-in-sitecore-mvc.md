@@ -45,7 +45,7 @@ Hook this code up to the &#8220;mvc.GetModel&#8221; pipeline using the following
 
 Now, when you make a rendering, be sure to add &#8220;typedmodel=1&#8221; to the parameters field in Sitecore for that rendering. That way, the &#8220;mvc.GetModel&#8221; pipeline will know when to create a typed model.
 
-And you&#8217;re all set to use the typed model in your Razor views. But there&#8217;s one thing left; the lambda syntax support. This works in the same way as the CdmFieldRenderer control from a [previous blog post](http://hermanussen.eu/sitecore/wordpress/2011/05/better-fieldrenderer-usage-with-cdm/ "Better FieldRenderer usage with CDM"). You can use the following helper class:
+And you&#8217;re all set to use the typed model in your Razor views. But there&#8217;s one thing left; the lambda syntax support. This works in the same way as the CdmFieldRenderer control from a [previous blog post]({% post_url 2011-05-07-better-fieldrenderer-usage-with-cdm %} "Better FieldRenderer usage with CDM"). You can use the following helper class:
 
 
 

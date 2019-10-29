@@ -31,12 +31,16 @@ The app is far from complete and has not been tested very thoroughly, but it doe
   * The Sitecore path where you are will be displayed at the bottom of the screen
   * Tested on my Samsung Galaxy S II with Android 2.3, but it should work on Android 2.2+
 
-<p style="text-align: left;">
-  <img class="aligncenter" title="Login screen" src="http://hermanussen.eu/sitecore/SitecoreEditor/login_screen.png" alt="" width="246" height="406" /><img class="aligncenter" title="Traverse items screen" src="http://hermanussen.eu/sitecore/SitecoreEditor/traversal_screen.png" alt="" width="245" height="403" /><img class="aligncenter" title="Edit item screen" src="http://hermanussen.eu/sitecore/SitecoreEditor/edit_item_screen.png" alt="" width="244" height="405" />If this is to become a serious App to be used by content editors on the road, I think a lot more basic features will have to be added. Publishing/unpublishing, adding and deleting items, and having more than just raw value support would be the bare minimum. I welcome any feedback on this and I would like to know if people are seriously interested in this.
-</p>
+<img class="aligncenter" title="Login screen" src="/wp-content/android/login_screen.png" alt="" width="246" height="406" />
+<img class="aligncenter" title="Traverse items screen" src="/wp-content/android/traversal_screen.png" alt="" width="245" height="403" />
+<img class="aligncenter" title="Edit item screen" src="/wp-content/android/edit_item_screen.png" alt="" width="244" height="405" />
+  
+If this is to become a serious App to be used by content editors on the road, I think a lot more basic features will have to be added. Publishing/unpublishing, adding and deleting items, and having more than just raw value support would be the bare minimum. I welcome any feedback on this and I would like to know if people are seriously interested in this.
 
 If you want to give it a go on your Android phone, then capture the following QR code on your phone or hit the image (it&#8217;s also a link) to download the App.
 
-[<img class="aligncenter" title="Sitecore Editor Android App" src="https://chart.googleapis.com/chart?cht=qr&chs=300x300&chl=http%3A%2F%2Fhermanussen.eu%2Fsitecore%2FSitecoreEditor%2FSitecoreEditor.apk" alt="" width="300" height="300" />](http://hermanussen.eu/sitecore/SitecoreEditor/SitecoreEditor.apk)Please note that the app is not available on the Android Market. But all you need to do is change one setting to allow this. A very good explanation can be found <a title="Applications outside the Android Market" href="http://www.androidcentral.com/just-browsing-applications-outside-android-market">here</a>.
+[<img class="aligncenter" title="Sitecore Editor Android App" src="https://chart.googleapis.com/chart?cht=qr&chs=300x300&chl=https%3A%2F%2Fhermanussen.eu%2Fwp-content%2Fandroid%2FSitecoreEditor.apk" alt="" width="300" height="300" />](/wp-content/android/SitecoreEditor.apk)
+
+Please note that the app is not available on the Android Market. But all you need to do is change one setting to allow this. A very good explanation can be found <a title="Applications outside the Android Market" href="http://www.androidcentral.com/just-browsing-applications-outside-android-market">here</a>.
 
 Also, the CM server needs to be publically accessible, or your Android device should have access to the internal network (with the CM server on it) in order for the application to work. Otherwise, the App will not be able to connect to the webservice.

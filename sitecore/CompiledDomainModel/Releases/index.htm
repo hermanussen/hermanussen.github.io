@@ -1,0 +1,182 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>CompiledDomainModel Releases</title>
+</head>
+<body>
+    <h1>CompiledDomainModel Releases</h1>
+    <p>You can install the module using NuGet with the following command: <strong>Install-Package CompiledDomainModel</strong></p>
+    <h2><a name="chapter8">Release notes and download links (installation packages)</a></h2>
+    <p><a href="1.0.0.0/CompiledDomainModel-1.0.0.0.zip">Dowload CompiledDomainModel Release 1.0.0.0</a></p>
+    <p>Release 1.0.0.0 containing the following features:</p>
+    <ul>
+        <li>
+            Added "Platform Mode", that can be used if generated code needs to be in separate files (e.g. when there are multiple DLL's where generated code is needed)
+        </li>
+        <li>
+            NuGet support added
+        </li>
+    </ul>
+
+    <p><a href="0.5.5.0/CompiledDomainModel-0.5.5.0.zip">Dowload CompiledDomainModel Release 0.5.5.0</a></p>
+    <p><a href="0.5.5.0/CompiledDomainModel Demo FeedReader-0.5.5.0.zip">Dowload CompiledDomainModel Demo FeedReader release 0.5.5.0</a></p>
+    <p>Release 0.5.5.0 containing the following features:</p>
+    <ul>
+        <li>
+            Added "FromParent(...)" static method to create relative fixed paths by resolving the child item by itself
+        </li>
+        <li>
+            Added the option to the global settings to remove dependencies with the CDM module
+        </li>
+        <li>
+            Added IItemWrapperCore, to allow dependencies with generated code to be removed.
+        </li>
+        <li>
+            Better way of determining template and contributing template hierarchy.
+        </li>
+        <li>
+            Fixed a bug that deals with a rather exotic NullReferenceException in the ConfigurationUtil class.
+        </li>
+    </ul>
+
+    <p><a href="0.5.0.0/CompiledDomainModel-0.5.0.0.zip">Dowload CompiledDomainModel Release 0.5.0.0</a></p>
+    <p><a href="0.5.0.0/CompiledDomainModel Demo FeedReader-0.5.0.0.zip">Dowload CompiledDomainModel Demo FeedReader release 0.5.0.0</a></p>
+    <p>Release 0.5.0.0 containing the following features:</p>
+    <ul>
+        <li>
+            Added support for relative fixed paths. So you can use a similar syntax as with fixed paths for paths within the content tree that have a fixed structure, but can be available in different locations.
+        </li>
+        <li>
+            The names of the DomainObjectSets are now included in the namespaces of the generated code. This allows for a better separation of projects/sites.
+        </li>
+        <li>
+            Items are now created by matching them by Sitecore ID, instead of template name
+        </li>
+        <li>
+            Some members made virtual
+        </li>
+        <li>
+            Compatibility with automatic databinding by turning it off during code generation
+        </li>
+        <li>
+            Fieldtype support added for
+            <ol>
+                <li>ImageField</li>
+                <li>FileField</li>
+            </ol>
+        </li>
+        <li>
+            Generated code no longer uses XPath to get the descendants of a specific type; uses a 'safer' way now
+        </li>
+        <li>
+            Added a GutterRenderer that displays the fixed paths and configured templates in the bar next to the content tree (<a href="http://hermanussen.eu/sitecore/wordpress/2011/03/the-sitecore-gutter/">more info</a>)
+        </li>
+        <li>
+            Generated code now starts with a prefix that can be used by external tools (like <a href="http://hermanussen.eu/sitecore/wordpress/2011/04/update-compileddomainmodel-from-visual-studio/">this one</a>) to refresh the generated code.
+        </li>
+    </ul>
+
+    <p><a href="0.4.0.0/CompiledDomainModel-0.4.0.0.zip">Dowload CompiledDomainModel Release 0.4.0.0</a></p>
+    <p><a href="0.4.0.0/CompiledDomainModel Demo FeedReader-0.4.0.0.zip">Dowload CompiledDomainModel Demo FeedReader release 0.4.0.0</a></p>
+    <p>Release 0.4.0.0 containing the following features:</p>
+    <ul>
+        <li>
+            Some fixes
+            <ol>
+                <li>Possible nullreference exception in generated code prevented (ItemWrapper.Parent)</li>
+                <li>Exception after generating code prevented when nothing is configured</li>
+                <li>Databinding issue fixed that caused error messages not to be displayed after generating code</li>
+            </ol>
+        </li>
+        <li>
+            Fieldtype support added for
+            <ol>
+                <li>ReferenceField</li>
+                <li>LookupField</li>
+                <li>Numeric fields (long)</li>
+                <li>Decimal fields (double)</li>
+                <li>Improved support for LinkFields</li>
+            </ol>
+        </li>
+        <li>
+            Generation template added for making a typed WCF Service to be consumed by other applications such as Silverlight (experimental)
+            <ol>
+                <li>Includes a demo Silverlight application</li>
+            </ol>
+        </li>
+        <li>
+            The user who generated the domain model is mentioned in the comments of the generated code
+        </li>
+    </ul>
+
+    <p><a href="0.3.1.0/CompiledDomainModel-0.3.1.0.zip">Dowload CompiledDomainModel Release 0.3.1.0</a></p>
+    <p><a href="0.3.1.0/CompiledDomainModel Demo FeedReader-0.3.1.0.zip">Dowload CompiledDomainModel Demo FeedReader release 0.3.1.0</a></p>
+    <p>Release 0.3.1.0 (initial release) containing the following features:</p>
+    <ul>
+        <li>
+            A code generator Sitecore application
+            <ol>
+                <li>Different code generation templates can be selected</li>
+                <li>A button for copying the generated code to the clipboard</li>
+                <li>A button for reloading</li>
+                <li>A button for downloading the generated file</li>
+                <li>A link to the module documentation</li>
+                <li>The default template generates a domain model</li>
+                <li>There is a template that generates a SQL script for creating template specific views (Sitecore fields as columns)</li>
+                <li>Easy to extend by placing .ascx files for generating code in the '/sitecore modules/Shell/CompiledDomainModel/CustomGenerators' folder</li>
+            </ol>
+        </li>
+        <li>
+            A validator Sitecore application
+            <ol>
+                <li>Uses the ValidateDomainModel pipeline to check if the loaded domain model is consistent with the templates and fixed paths in the Sitecore databases</li>
+                <li>A button for reloading</li>
+                <li>A link to the module documentation</li>
+                <li>Displays any errors and warnings if applicable</li>
+                <li>A link to a report that gives a quick overview of the structure for the loaded domain model</li>
+                <li>A link to a report that displays all the fixed paths for each database and shows what domain classes can be used at specific locations</li>
+            </ol>
+        </li>
+        <li>
+            A template for generating the domain model
+            <ol>
+                <li>The generated code has a wrapper class with several methods for navigating and creating typed wrapper classes</li>
+                <li>The generated code implements INotifyPropertyChanging and INotifyPropertyChanged so that events can be fired if anything changes in the domain model</li>
+                <li>The generated code contains classes for configured templates and implements properties for the fields of those templates</li>
+                <li>The generated code contains interfaces and static classes for contributing templates, as a way of dealing with Sitecore multiple inheritance (regular domain model classes implement these interfaces)</li>
+                <li>The generated code contains a class for each fixed path in the content tree (and has methods for accessing the item wrappers, typed if possible)</li>
+            </ol>
+        </li>
+        <li>
+            A template for generating SQL views
+            <ol>
+                <li>Creates or replaces a schema to contain the views</li>
+                <li>Creates a view for each configured template and each configured contributing template, using the field names as columns</li>
+            </ol>
+        </li>
+        <li>
+            A validation processor that is configured to call the ValidateDomainModel pipeline at startup and log the result (and throw an exception if configured that way)
+        </li>
+        <li>
+            A validation pipeline that checks if the loaded domain model is consistent with the templates and fixed paths in the Sitecore databases
+            <ol>
+                <li>The validation result is stored in the cache, so that any future code can check the results at a later stage</li>
+                <li>A validation error is added if the domain model is generated with a version of the CompiledDomainModel module that is different from the one that is loaded</li>
+                <li>A validation warning is added if a domain model cannot be found</li>
+                <li>A validation error is added for each template that is referenced from the loaded domain model, but is not present in the configured databases</li>
+                <li>A validation error is added for each template if the inheritance of the domain model is inconsistent with the inheritance of the templates in the configured databases</li>
+                <li>A validation error is added for each template field that is referenced from the loaded domain model, but is not present in the configured databases</li>
+                <li>A validation error is added for each template field that is referenced from the loaded domain model, but has a different type in the configured databases</li>
+                <li>A validation warning is added for each template that is configured to have generated code, but the domain model does not contain a class for it</li>
+                <li>A validation warning is added for each template field of templates in the loaded domain model that don't have generated code</li>
+                <li>A validation warning is added for each fixed template path that is configured, but has no generated code</li>
+                <li>A validation error is added if no databases are configured for a fixed path in the loaded domain model</li>
+                <li>A validation error is added if a fixed path is not available in a configured database</li>
+                <li>A validation warning is added if a fixed path is available in a configured database at the configured path, but if it does not have the correct item ID</li>
+                <li>A validation warning is added if a fixed path is available in a configured database with the correct ID, but if it is not at the right path in Sitecore</li>
+            </ol>
+        </li>
+    </ul>
+
+</body>
+</html>

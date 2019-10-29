@@ -42,7 +42,7 @@ As is explained, you must now make url&#8217;s to generate code that is specific
   1. http://sitecoredemo/sitecore/shell/Applications/CompiledDomainModel/CodeGenerator.aspx?platformsets=Core|PlatformTemplatesSet|PlatformFixedPaths
   2. http://sitecoredemo/sitecore/shell/Applications/CompiledDomainModel/CodeGenerator.aspx?platformsets=SomeProjectTemplatesSet|SomeProjectFixedPathsSet
 
-These url&#8217;s will only generate the code for the DomainObjectSets and FixedPathSets (check the [documentation](http://hermanussen.eu/sitecore/CompiledDomainModel/Documentation/default.htm#chapter2 "CDM docs") for an explanation about these sets) that are referenced in the url.
+These url&#8217;s will only generate the code for the DomainObjectSets and FixedPathSets (check the [documentation](/sitecore/CompiledDomainModel/Documentation/default.htm#chapter2 "CDM docs") for an explanation about these sets) that are referenced in the url.
 
 **NuGet support**
 
@@ -56,6 +56,6 @@ Steps:
 
 <img class="alignnone" title="CDM NuGet installed" src="/wp-content/static/cdm_nuget_installation.png" alt="" width="574" height="290" /> 
 
-Of course you are not required to install CDM this way. You can still use the regular package on the [Releases page](http://hermanussen.eu/sitecore/CompiledDomainModel/Releases/ "Releases page").
+Of course you are not required to install CDM this way. You can still use the regular package on the [Releases page](/sitecore/CompiledDomainModel/Releases/index.htm "Releases page").
 
 Happy CDM-coding!

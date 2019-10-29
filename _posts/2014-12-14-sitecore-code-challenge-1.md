@@ -29,7 +29,7 @@ Since this is quite a new way of getting to know Sitecore in a fun way, I&#8217;
 
 Follow these steps to get started:
 
-  1. Download <a title="Sitecore code challenge 01" href="http://hermanussen.eu/sitecore/codechallenges/Sitecore.CodeChallenge01.zip">this ZIP file</a> and extract it.
+  1. Download <a title="Sitecore code challenge 01" href="/sitecore/codechallenges/Sitecore.CodeChallenge01.zip">this ZIP file</a> and extract it.
   2. Copy &#8220;Sitecore.Kernel.dll&#8221; to the folder &#8220;Binaries&#8221; (I&#8217;ve tested with version 7.2 rev 140526, but it will probably work with other versions as well).
   3. Open the project in Visual Studio and build the project.
   4. Run the unit tests using a runner that supports xUnit (I&#8217;m using <a title="xUnit.net VS runner" href="http://xunit.github.io/docs/running-tests-in-vs.html">xUnit.net VS runner,</a> which is free)

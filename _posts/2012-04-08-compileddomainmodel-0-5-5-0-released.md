@@ -19,7 +19,7 @@ Though the <a href="http://trac.sitecore.net/CompiledDomainModel/wiki">CompiledD
 
 That&#8217;s why I sometimes fix some bugs or add a few features. The easter bunny brings us release 0.5.5.0. And because I haven&#8217;t blogged about the previous release, I&#8217;ll also include the release notes for that one:
 
-<img class="alignnone" title="CompiledDomainModel logo" src="/sitecore/CompiledDomainModel/cdm.png" alt="" width="563" height="346" /> 
+<img class="alignnone" title="CompiledDomainModel logo" src="/wp-content/static/cdm.png" alt="" width="563" height="346" /> 
 
 Release 0.5.0.0:
 
@@ -32,8 +32,8 @@ Release 0.5.0.0:
       1. ImageField
       2. FileField
   * Generated code no longer uses XPath to get the descendants of a specific type; uses a &#8216;safer&#8217; way now
-  * Added a GutterRenderer that displays the fixed paths and configured templates in the bar next to the content tree ([more info](http://hermanussen.eu/sitecore/wordpress/2011/03/the-sitecore-gutter/))
-  * Generated code now starts with a prefix that can be used by external tools (like [this one](http://hermanussen.eu/sitecore/wordpress/2011/04/update-compileddomainmodel-from-visual-studio/)) to refresh the generated code.
+  * Added a GutterRenderer that displays the fixed paths and configured templates in the bar next to the content tree ([more info]({% post_url 2011-03-25-the-sitecore-gutter %}))
+  * Generated code now starts with a prefix that can be used by external tools (like [this one]({% post_url 2011-04-05-update-compileddomainmodel-from-visual-studio %})) to refresh the generated code.
 
 Release 0.5.5.0:
 

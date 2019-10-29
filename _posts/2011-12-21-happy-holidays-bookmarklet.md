@@ -25,6 +25,6 @@ Just paste the following snippet into the url field of a new bookmark and click 
 
 Here&#8217;s a quick preview of the horror that awaits you:
 
-<img class="alignnone" title="Christmas bookmarklet screenshot" src="/sitecore/bookmarklets/christmas_bookmarklet.png" alt="" width="839" height="481" /> 
+<img class="alignnone" title="Christmas bookmarklet screenshot" src="/wp-content/static/christmas_bookmarklet.png" alt="" width="839" height="481" /> 
 
 Happy holidays!
