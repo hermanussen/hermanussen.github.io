@@ -15,9 +15,9 @@ aktt_tweeted:
 categories:
   - code snippets
 ---
-I&#8217;m not sure if this has been done before, but I thought it would be fun to code a ASP.NET control based on the sc:Image from Sitecore. I wanted to create an inline image (based on the <a title="Data URI scheme on Wikipedia" href="http://en.wikipedia.org/wiki/Data_URI_scheme" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://en.wikipedia.org']);">Data URI scheme</a>). This could be useful for improving performance in some cases.
+I&#8217;m not sure if this has been done before, but I thought it would be fun to code a ASP.NET control based on the sc:Image from Sitecore. I wanted to create an inline image (based on the <a title="Data URI scheme on Wikipedia" href="http://en.wikipedia.org/wiki/Data_URI_scheme">Data URI scheme</a>). This could be useful for improving performance in some cases.
 
-I&#8217;m not really certain that it is even a useful control in its current form. But it should be easy enough to convert this control so that it can be used in a dynamic CSS file. If you seriously want to use this, check out <a title="Inline Images with Data URLs" href="http://www.websiteoptimization.com/speed/tweak/inline-images/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.websiteoptimization.com']);">this page</a>.
+I&#8217;m not really certain that it is even a useful control in its current form. But it should be easy enough to convert this control so that it can be used in a dynamic CSS file. If you seriously want to use this, check out <a title="Inline Images with Data URLs" href="http://www.websiteoptimization.com/speed/tweak/inline-images/">this page</a>.
 
 Here&#8217;s the code:  
 

@@ -15,7 +15,7 @@ aktt_tweeted:
 categories:
   - code snippets
 ---
-A <a title="Introduction to DSM" href="http://129.187.108.94/dsmweb/en/understand-dsm/technical-dsm-tutorial0/introduction-to-dsm.html" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://129.187.108.94']);">design structure matrix</a> (or dependency structure matrix) can help you to analyze the dependencies of your system and spot potential problems. This is especially useful when analyzing code, like you can do with the <a title=".NET Reflector" href="http://www.reflector.net/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.reflector.net']);">.NET Reflector</a> Add-In you can find <a title="Dependency Structure Matrix PlugIn for .NET Reflector" href="http://tcdev.free.fr/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://tcdev.free.fr']);">here</a>.
+A <a title="Introduction to DSM" href="http://129.187.108.94/dsmweb/en/understand-dsm/technical-dsm-tutorial0/introduction-to-dsm.html">design structure matrix</a> (or dependency structure matrix) can help you to analyze the dependencies of your system and spot potential problems. This is especially useful when analyzing code, like you can do with the <a title=".NET Reflector" href="http://www.reflector.net/">.NET Reflector</a> Add-In you can find <a title="Dependency Structure Matrix PlugIn for .NET Reflector" href="http://tcdev.free.fr/">here</a>.
 
 Since certain aspects of your system structure can also be derived from the Sitecore content tree, I thought it might be useful to make a DSM for that. The aspx at the end of this post can be used to analyze the dependencies in your content tree!
 

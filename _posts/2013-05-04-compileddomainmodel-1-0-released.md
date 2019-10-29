@@ -30,7 +30,7 @@ This is a feature that has been requested by several people. If you have multipl
 
 To make this possible, you should first check the &#8220;Platform Mode&#8221; checkbox on the settings item (/sitecore/system/Modules/CompiledDomainModel/Settings):
 
-<img class="alignnone" title="CDM Platform Mode" src="/sitecore/static/cdm_platform_mode.png" alt="" width="958" height="558" /> 
+<img class="alignnone" title="CDM Platform Mode" src="/wp-content/static/cdm_platform_mode.png" alt="" width="958" height="558" /> 
 
 Note that the wrapper classes need to be resolved globally when using the platform mode. To make that possible, there is a dependency on the module itself. So you can&#8217;t use the &#8220;Remove dependencies&#8221; function when you want to use the platform mode.
 
@@ -46,15 +46,15 @@ These url&#8217;s will only generate the code for the DomainObjectSets and Fixed
 
 **NuGet support**
 
-You can now install <a title="NuGet CDM" href="https://nuget.org/packages/CompiledDomainModel" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://nuget.org']);">CompiledDomainModel through NuGet</a>. I based the package on <a title="Article about deploying Sitecore modules with NuGet" href="http://blog.velir.com/index.php/2012/12/04/create-and-deploy-sitecore-modules-with-nuget/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://blog.velir.com']);">this excellent article</a>.
+You can now install <a title="NuGet CDM" href="https://nuget.org/packages/CompiledDomainModel">CompiledDomainModel through NuGet</a>. I based the package on <a title="Article about deploying Sitecore modules with NuGet" href="http://blog.velir.com/index.php/2012/12/04/create-and-deploy-sitecore-modules-with-nuget/">this excellent article</a>.
 
 Steps:
 
-  1. You need to have <a title="Sitecore Rocks" href="http://visualstudiogallery.msdn.microsoft.com/44a26c88-83a7-46f6-903c-5c59bcd3d35b" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://visualstudiogallery.msdn.microsoft.com']);">Sitecore Rocks</a> installed in Visual Studio
+  1. You need to have <a title="Sitecore Rocks" href="http://visualstudiogallery.msdn.microsoft.com/44a26c88-83a7-46f6-903c-5c59bcd3d35b">Sitecore Rocks</a> installed in Visual Studio
   2. You need to connect your project to your Sitecore website
   3. Open the Package Manager Console and run **Install-Package CompiledDomainModel**
 
-<img class="alignnone" title="CDM NuGet installed" src="/sitecore/static/cdm_nuget_installation.png" alt="" width="574" height="290" /> 
+<img class="alignnone" title="CDM NuGet installed" src="/wp-content/static/cdm_nuget_installation.png" alt="" width="574" height="290" /> 
 
 Of course you are not required to install CDM this way. You can still use the regular package on the [Releases page](http://hermanussen.eu/sitecore/CompiledDomainModel/Releases/ "Releases page").
 

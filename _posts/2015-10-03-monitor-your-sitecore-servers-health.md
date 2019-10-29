@@ -17,12 +17,12 @@ Having a website up and running reliably requires that you monitor its health. Y
 
 Now, there are several ways of making sure that things are ok at runtime. For example:
 
-  * <a title="Sitecore's HeartBeat.aspx for Load Balancer Health Checks " href="https://www.paragon-inc.com/resources/blogs-posts/sitecores_heartbeat_page_for_load_balancer_health_checks" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.paragon-inc.com']);">Sitecore&#8217;s HeartBeat.aspx for Load Balancer Health Checks</a> &#8211; Standard page in Sitecore that does some limited checks. It&#8217;s a good idea to monitor this page.
-  * <a title="Sitecore Diagnostics Toolset" href="https://marketplace.sitecore.net/en/Modules/S/Sitecore_Diagnostics_Toolset.aspx" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://marketplace.sitecore.net']);">Sitecore Diagnostics Toolset</a> &#8211; A desktop application that does various checks to see if your Sitecore implementation is correctly working, with regard to things like security, indexing, performance and scalability. It&#8217;s a smart idea to use this tool periodically, but it won&#8217;t be helpful for monitoring purposes.
+  * <a title="Sitecore's HeartBeat.aspx for Load Balancer Health Checks " href="https://www.paragon-inc.com/resources/blogs-posts/sitecores_heartbeat_page_for_load_balancer_health_checks">Sitecore&#8217;s HeartBeat.aspx for Load Balancer Health Checks</a> &#8211; Standard page in Sitecore that does some limited checks. It&#8217;s a good idea to monitor this page.
+  * <a title="Sitecore Diagnostics Toolset" href="https://marketplace.sitecore.net/en/Modules/S/Sitecore_Diagnostics_Toolset.aspx">Sitecore Diagnostics Toolset</a> &#8211; A desktop application that does various checks to see if your Sitecore implementation is correctly working, with regard to things like security, indexing, performance and scalability. It&#8217;s a smart idea to use this tool periodically, but it won&#8217;t be helpful for monitoring purposes.
 
 Personally, I like to monitor more than just if a website is up. I also want to know if key parts of the system are functioning properly, like connections to other systems, if certain content is available and if my indexes are ok. These checks may be very specific to my implementation.
 
-That&#8217;s why I created a simple drop-in .aspx script that you can easily configure to check these things. You can find it in <a title="Gist of SitecoreChecks.aspx" href="https://gist.github.com/hermanussen/9d4ea1b77602e02609cc" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://gist.github.com']);" target="_blank">this Gist on Github</a>. Example output:
+That&#8217;s why I created a simple drop-in .aspx script that you can easily configure to check these things. You can find it in <a title="Gist of SitecoreChecks.aspx" href="https://gist.github.com/hermanussen/9d4ea1b77602e02609cc" target="_blank">this Gist on Github</a>. Example output:
 
 [<img class="aligncenter size-full wp-image-263" title="success" src="/wp-content/uploads/2015/10/success1.png" alt="" width="574" height="622" srcset="/wp-content/uploads/2015/10/success1.png 574w, /wp-content/uploads/2015/10/success1-276x300.png 276w" sizes="(max-width: 574px) 100vw, 574px" />](/wp-content/uploads/2015/10/success1.png)
 
@@ -47,7 +47,7 @@ It&#8217;s also easy to implement your own specific types of checks. Add them to
 
 **Tags**
 
-You may not always want to run the same checks. Perhaps some checks should only be performed at night and some checks may be specific to your DTAP or CM/CD servers specifically. You can use tags to limit which tests are run, as demonstrated in the example below. And then you can specify which tags are applicable by specifiying them |-separated in the url parameter &#8220;tags&#8221;. The url //SitecoreChecks.aspx?tags=fail would result in the following:
+You may not always want to run the same checks. Perhaps some checks should only be performed at night and some checks may be specific to your DTAP or CM/CD servers specifically. You can use tags to limit which tests are run, as demonstrated in the example below. And then you can specify which tags are applicable by specifiying them &#124;-separated in the url parameter &#8220;tags&#8221;. The url //SitecoreChecks.aspx?tags=fail would result in the following:
 
 [<img class="aligncenter size-full wp-image-261" title="fail" src="/wp-content/uploads/2015/10/fail.png" alt="" width="519" height="506" srcset="/wp-content/uploads/2015/10/fail.png 519w, /wp-content/uploads/2015/10/fail-300x292.png 300w" sizes="(max-width: 519px) 100vw, 519px" />](/wp-content/uploads/2015/10/fail.png)
 

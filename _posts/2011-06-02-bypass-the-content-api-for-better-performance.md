@@ -15,7 +15,7 @@ aktt_tweeted:
 categories:
   - code snippets
 ---
-The Sitecore content API provides a very easy way of accessing your content. It is highly optimized for performance with internal caching. You can find a great overview of the different query strategies <a title="Options for querying items from Sitecore" href="http://firebreaksice.com/options-for-querying-items-from-sitecore/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://firebreaksice.com']);">here</a>.
+The Sitecore content API provides a very easy way of accessing your content. It is highly optimized for performance with internal caching. You can find a great overview of the different query strategies <a title="Options for querying items from Sitecore" href="http://firebreaksice.com/options-for-querying-items-from-sitecore/">here</a>.
 
 But in some specific cases, the API will not provide you with the right tools to get what you want, with the performance that you want. In those cases you have 2 options:
 
@@ -54,7 +54,7 @@ This will be quite slow if there are many descendants. We will bypass the conten
 
 
 
-Place the query in a stored procedure if you want to use this method in production. For reference, <a title="Accessing hierarchical node structures from sql" href="http://bloggingabout.net/blogs/program.x/archive/2008/07/29/sitecore-accessing-hierarchical-node-structures-from-sql.aspx" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://bloggingabout.net']);">here is a different article</a> which discusses bypassing the content API.
+Place the query in a stored procedure if you want to use this method in production. For reference, <a title="Accessing hierarchical node structures from sql" href="http://bloggingabout.net/blogs/program.x/archive/2008/07/29/sitecore-accessing-hierarchical-node-structures-from-sql.aspx">here is a different article</a> which discusses bypassing the content API.
 
 **Measuring speed**
 

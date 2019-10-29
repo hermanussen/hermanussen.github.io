@@ -19,16 +19,16 @@ Most Sitecore implementations that I&#8217;ve worked with are backed by SQL Serv
 
 This data structure is not only very simple, it also doesn&#8217;t really need any relationships besides the one between items and field values (for different languages and versions). In fact, everything comes down to just items and some data related to those particular items. A document-oriented database instead of a relational database may be a better fit!
 
-With this in mind, I attempted to create a data provider for Sitecore that works with <a title="MongoDB website" href="http://www.mongodb.org/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.mongodb.org']);">MongoDB</a>. And after a few months of not working on it at all, I finally finished it in the last few evenings. Since it has not been properly tested and very likely has some major bugs still in it, I ask you to regard this as a VERY experimental implementation.
+With this in mind, I attempted to create a data provider for Sitecore that works with <a title="MongoDB website" href="http://www.mongodb.org/">MongoDB</a>. And after a few months of not working on it at all, I finally finished it in the last few evenings. Since it has not been properly tested and very likely has some major bugs still in it, I ask you to regard this as a VERY experimental implementation.
 
-Nevertheless, I encourage anyone who is interested to play around with the module that I&#8217;ve shared on the Sitecore Shared Source website. You can find the MongoDBDataProvider <a title="MongoDBDataProvider" href="http://trac.sitecore.net/MongoDBDataProvider/wiki/WikiStart" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://trac.sitecore.net']);">here</a>.
+Nevertheless, I encourage anyone who is interested to play around with the module that I&#8217;ve shared on the Sitecore Shared Source website. You can find the MongoDBDataProvider <a title="MongoDBDataProvider" href="http://trac.sitecore.net/MongoDBDataProvider/wiki/WikiStart">here</a>.
 
 **Setting up the module**
 
 Here are some easy steps to get started with the MongoDB data provider.
 
-  1. <a title="MongoDB quickstart for Windows" href="http://www.mongodb.org/display/DOCS/Quickstart+Windows" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.mongodb.org']);">Install MongoDB</a> on your local machine and start it (no need to create a database)
-  2. Get the latest source code from <del>SVN</del> <a title="MongoDB DataProvider" href="https://github.com/hermanussen/MongoDataProvider" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://github.com']);">GitHub</a>
+  1. <a title="MongoDB quickstart for Windows" href="http://www.mongodb.org/display/DOCS/Quickstart+Windows">Install MongoDB</a> on your local machine and start it (no need to create a database)
+  2. Get the latest source code from <del>SVN</del> <a title="MongoDB DataProvider" href="https://github.com/hermanussen/MongoDataProvider">GitHub</a>
   3. Build the project
   4. Copy the dll and dependencies (MongoDB.Bson and MongoDB.Driver) to the bin folder in your Sitecore site
   5. Copy MongoDataProvider.config to your App_Config/Include folder
@@ -248,7 +248,7 @@ Go to TestDataProvider.aspx and select the SQL Server data provider and the Mong
   </tr>
 </table>
 
-Note that the <a title="MongoDB safe mode explanation" href="http://stackoverflow.com/questions/4604868/mongodb-c-sharp-safemode-official-driver" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://stackoverflow.com']);">safe mode</a> in MongoDB makes writing to the database more reliable, and also a little slower (you can find a setting for this in MongoDataProvider.config). Turning the safe mode off might be interesting on content delivery environments, because that&#8217;s where the performance really matters and you can always re-publish something if you need to (though it would be very annoying if this would be needed).
+Note that the <a title="MongoDB safe mode explanation" href="http://stackoverflow.com/questions/4604868/mongodb-c-sharp-safemode-official-driver">safe mode</a> in MongoDB makes writing to the database more reliable, and also a little slower (you can find a setting for this in MongoDataProvider.config). Turning the safe mode off might be interesting on content delivery environments, because that&#8217;s where the performance really matters and you can always re-publish something if you need to (though it would be very annoying if this would be needed).
 
 Here&#8217;s a chart with the results:
 

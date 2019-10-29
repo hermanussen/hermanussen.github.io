@@ -17,6 +17,6 @@ categories:
 ---
 Ever wanted to get a quick insight into how the language versions of your content are used? No? Me neither. But here&#8217;s some code to get it anyway.
 
-Just copy and paste the following code to an aspx file in your Sitecore installation and you&#8217;re good to go. To make more languages available, just edit the code. The Venn diagram is rendered by the <a title="Google Chart Tools" href="http://code.google.com/apis/chart/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://code.google.com']);">Google Chart Tools</a>.
+Just copy and paste the following code to an aspx file in your Sitecore installation and you&#8217;re good to go. To make more languages available, just edit the code. The Venn diagram is rendered by the <a title="Google Chart Tools" href="http://code.google.com/apis/chart/">Google Chart Tools</a>.
 
 <img class="alignnone" src="/wp-content/uploads/screenshot_venn_diagram.JPG" alt="" width="602" height="790" />

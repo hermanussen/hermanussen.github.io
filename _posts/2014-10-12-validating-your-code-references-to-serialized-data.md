@@ -17,7 +17,7 @@ Sitecore developers often need to reference content items from their code. E.g.:
 
 
 
-After recently contributing some serialization logic to <a title="Sitecore.FakeDb.Serialization" href="https://github.com/sergeyshushlyapin/Sitecore.FakeDb#fakedb-serialization" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://github.com']);">Sitecore.FakeDb</a>, I got the idea to write unit tests that validate if these constants have values that are actually in Sitecore. We can use TDS or Unicorn serialized data to validate this.
+After recently contributing some serialization logic to <a title="Sitecore.FakeDb.Serialization" href="https://github.com/sergeyshushlyapin/Sitecore.FakeDb#fakedb-serialization">Sitecore.FakeDb</a>, I got the idea to write unit tests that validate if these constants have values that are actually in Sitecore. We can use TDS or Unicorn serialized data to validate this.
 
 The following unit test does just that (uses NUnit, FluentAssertions, Sitecore.FakeDb and Sitecore.FakeDb.Serialization):
 
@@ -25,7 +25,7 @@ The following unit test does just that (uses NUnit, FluentAssertions, Sitecore.F
 
 Just pass in the types (that have Sitecore IDs as static properties) using the &#8220;Values&#8221; attribute.
 
-But I didn&#8217;t stop there. At my company, we&#8217;re currently working on a project that uses <a title="Glass Mapper" href="http://glass.lu/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://glass.lu']);">Glass Mapper</a>. Glass Mapper can use attributes to link mapped classes to the correct Sitecore templates. And in a similar way, properties can be linked to field IDs.
+But I didn&#8217;t stop there. At my company, we&#8217;re currently working on a project that uses <a title="Glass Mapper" href="http://glass.lu/">Glass Mapper</a>. Glass Mapper can use attributes to link mapped classes to the correct Sitecore templates. And in a similar way, properties can be linked to field IDs.
 
 
 

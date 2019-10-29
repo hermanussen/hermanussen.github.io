@@ -15,7 +15,7 @@ categories:
   - sitecore modules
   - sitecore tips
 ---
-Recently, I gave a presentation for the Dutch Sitecore user group (<a title="SUGNL website" href="http://www.sugnl.net/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.sugnl.net']);">SUGNL</a>) about unit testing with test fixtures. I&#8217;ve blogged about this subject before (the initial post can be found [here](http://hermanussen.eu/sitecore/wordpress/2012/06/sitecore-unit-testing-with-test-fixtures/ "Initial post about unit testing with test fixtures")).
+Recently, I gave a presentation for the Dutch Sitecore user group (<a title="SUGNL website" href="http://www.sugnl.net/">SUGNL</a>) about unit testing with test fixtures. I&#8217;ve blogged about this subject before (the initial post can be found [here](http://hermanussen.eu/sitecore/wordpress/2012/06/sitecore-unit-testing-with-test-fixtures/ "Initial post about unit testing with test fixtures")).
 
 You can download the slides in both Dutch and English:
 
@@ -24,6 +24,6 @@ You can download the slides in both Dutch and English:
 
 The demo project that I used, also containing the code for my [post about using item wrappers as models in Sitecore MVC](http://hermanussen.eu/sitecore/wordpress/2013/03/use-item-wrappers-as-models-in-sitecore-mvc/ "Use item wrappers as models in Sitecore MVC") is also available as a download.
 
-  * <a title="20130316_UnitTestingDemo.zip" href="/wp-content/uploads/2013/03/20130316_UnitTestingDemo.zip" onclick="javascript:_gaq.push(['_trackEvent','download','/wp-content/uploads/2013/03/20130316_UnitTestingDemo.zip']);">20130316_UnitTestingDemo.zip</a>
+  * <a title="20130316_UnitTestingDemo.zip" href="/wp-content/uploads/2013/03/20130316_UnitTestingDemo.zip">20130316_UnitTestingDemo.zip</a>
 
 Hopefully, these downloads can be useful and please let me know if you have any questions or other feedback!

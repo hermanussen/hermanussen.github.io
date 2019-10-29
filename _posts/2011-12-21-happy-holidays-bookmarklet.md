@@ -17,7 +17,7 @@ categories:
 ---
 The holiday season is almost here and I&#8217;d like to wish everyone a merry christmas and a happy 2012! May your Sitecore successes be as great or even greater next year!
 
-If you&#8217;re not into the holiday spirit yet, then here&#8217;s a very ugly and utterly useless <a title="Bookmarklet explanation on Wikipedia" href="http://en.wikipedia.org/wiki/Bookmarklet" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://en.wikipedia.org']);">bookmarklet</a> that can turn your Sitecore desktop into a hideously decadent, blindingly colorful freakshow to match your equally obscene chistmas decorations (including usb christmas trees) that make your office look like a department store.
+If you&#8217;re not into the holiday spirit yet, then here&#8217;s a very ugly and utterly useless <a title="Bookmarklet explanation on Wikipedia" href="http://en.wikipedia.org/wiki/Bookmarklet">bookmarklet</a> that can turn your Sitecore desktop into a hideously decadent, blindingly colorful freakshow to match your equally obscene chistmas decorations (including usb christmas trees) that make your office look like a department store.
 
 Just paste the following snippet into the url field of a new bookmark and click it when you have your Sitecore desktop opened (tested in Chrome only). I promise that the script does not intentionally mess up your work, but nevertheless: use it at your own risk.
 

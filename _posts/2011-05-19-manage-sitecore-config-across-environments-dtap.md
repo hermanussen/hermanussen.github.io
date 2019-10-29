@@ -21,7 +21,7 @@ Managing different Sitecore environments can be quite cumbersome. One of the thi
 
 <span style="text-decoration: underline;">The problem:</span>
 
-The problem is not that we have a lot of configuration; that is actually a good thing! But when you have separate environments, like in a <a title="Wikipedia article about DTAP" href="http://en.wikipedia.org/wiki/Development,_testing,_acceptance_and_production" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://en.wikipedia.org']);">DTAP</a> (Development, Testing, Acceptance and Production) setup, small changes to the configuration for each environment may be required. Here are a few suggestions for possible differences:
+The problem is not that we have a lot of configuration; that is actually a good thing! But when you have separate environments, like in a <a title="Wikipedia article about DTAP" href="http://en.wikipedia.org/wiki/Development,_testing,_acceptance_and_production">DTAP</a> (Development, Testing, Acceptance and Production) setup, small changes to the configuration for each environment may be required. Here are a few suggestions for possible differences:
 
   * Different connectionstrings
   * Different dataFolder, mediaFolder, tempFolder
@@ -45,7 +45,7 @@ We have made a folder structure containing the Web.config, ConnectionStrings.con
 
 This appears to be better, because you know exactly what you need to include in your deployment. But with this approach, you rely on all the developers for keeping everything consistent; if someone makes a change to the DEV version of a config file and forgets to make the same changes for the other environments, the whole thing breaks.
 
-Moreover, if you want to check the consistency between the different files, you will have to wade through these huge config files. A good diff tool like <a title="WinMerge website" href="http://winmerge.org/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://winmerge.org']);">WinMerge</a> can only go so far in helping you with this.
+Moreover, if you want to check the consistency between the different files, you will have to wade through these huge config files. A good diff tool like <a title="WinMerge website" href="http://winmerge.org/">WinMerge</a> can only go so far in helping you with this.
 
 <span style="text-decoration: underline;">A better solution:</span>
 
@@ -73,7 +73,7 @@ Now we have a nice base to work from.
 
 <span style="text-decoration: underline;">The ConnectionStrings.config:</span>
 
-The connection strings are not in the <sitecore /> section. So we need a way to include them in the Web.config. Turns out, this is pretty easy. However, **I must warn you here**: I did see something that worried me with <a title=".NET Reflector website" href="http://reflector.red-gate.com/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://reflector.red-gate.com']);">.NET Reflector</a> in ConfigModifier.dll, so I&#8217;m not sure that this solution will never break. It appears to read the connection strings directly from the App_Config/ConnectionStrings.config path. I may be mistaken, and I&#8217;ve had no problems with it so far. But if you want to be sure, then skip this step for now.
+The connection strings are not in the <sitecore /> section. So we need a way to include them in the Web.config. Turns out, this is pretty easy. However, **I must warn you here**: I did see something that worried me with <a title=".NET Reflector website" href="http://reflector.red-gate.com/">.NET Reflector</a> in ConfigModifier.dll, so I&#8217;m not sure that this solution will never break. It appears to read the connection strings directly from the App_Config/ConnectionStrings.config path. I may be mistaken, and I&#8217;ve had no problems with it so far. But if you want to be sure, then skip this step for now.
 
 Change the connectionStrings section in your Web.config file, like this:  
 

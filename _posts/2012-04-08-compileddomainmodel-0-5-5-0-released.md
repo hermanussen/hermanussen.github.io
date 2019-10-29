@@ -15,7 +15,7 @@ aktt_tweeted:
 categories:
   - sitecore modules
 ---
-Though the <a href="http://trac.sitecore.net/CompiledDomainModel/wiki" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://trac.sitecore.net']);">CompiledDomainModel</a> Sitecore module is now a commonly used and deeply rooted part of our Sitecore development strategy within our organisation, that doesn&#8217;t mean that there&#8217;s no room for improvements.
+Though the <a href="http://trac.sitecore.net/CompiledDomainModel/wiki">CompiledDomainModel</a> Sitecore module is now a commonly used and deeply rooted part of our Sitecore development strategy within our organisation, that doesn&#8217;t mean that there&#8217;s no room for improvements.
 
 That&#8217;s why I sometimes fix some bugs or add a few features. The easter bunny brings us release 0.5.5.0. And because I haven&#8217;t blogged about the previous release, I&#8217;ll also include the release notes for that one:
 
@@ -43,4 +43,4 @@ Release 0.5.5.0:
   * Better way of determining template and contributing template hierarchy.
   * Fixed a bug that deals with a rather exotic NullReferenceException in the ConfigurationUtil class.
 
-You can find downloads on the <a title="CDM releases page" href="http://trac.sitecore.net/CompiledDomainModel/wiki/Releases" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://trac.sitecore.net']);">Releases page</a>. If you have any questions, just let me know!
+You can find downloads on the <a title="CDM releases page" href="http://trac.sitecore.net/CompiledDomainModel/wiki/Releases">Releases page</a>. If you have any questions, just let me know!
