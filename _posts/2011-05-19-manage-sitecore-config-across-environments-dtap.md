@@ -34,14 +34,14 @@ If you copy all the config files when deploying to a different environment, you 
 <span style="text-decoration: underline;">A solution that we have used in the past:</span>
 
 We have made a folder structure containing the Web.config, ConnectionStrings.config and any other config file that contains environment specific settings for each environment. It looked similar to this:  
-> Web.config (development version can be in the original location)  
-> App_Config  
->> ConnectionStrings.config  
-> TEST  
->> Web.config  
->> App_Config  
->>> ConnectionStrings.config  
-> ACC  
+&gt; Web.config (development version can be in the original location)  
+&gt; App_Config  
+&gt;&gt; ConnectionStrings.config  
+&gt; TEST  
+&gt;&gt; Web.config  
+&gt;&gt; App_Config  
+&gt;&gt;&gt; ConnectionStrings.config  
+&gt; ACC  
 &#8230;
 
 This appears to be better, because you know exactly what you need to include in your deployment. But with this approach, you rely on all the developers for keeping everything consistent; if someone makes a change to the DEV version of a config file and forgets to make the same changes for the other environments, the whole thing breaks.
@@ -57,6 +57,7 @@ I really would like to have only the differences between the environments in sep
 
 Luckily, putting all the Sitecore config in a separate file is quite easy. I made a new config file under App_Config called Sitecore.config and I copied the entire <sitecore /> section into it. Then I made the Web.config point to it, like this:  
 
+{% gist dd3c75108f7bc74cd7f7a06138b00330 %}
 
 That cleans up the Web.config nicely! Why not externalize everything in the Web.config? Well, because the other configuration can be implemented differently (it is not specific to Sitecore) and may rely on the configuration being specified in the Web.config. Furthermore, the Web.config may be changed by IIS Manager. Be aware of this!
 
@@ -68,7 +69,7 @@ Again, Sitecore has a nice built in solution for this problem. The differences b
 
 So let&#8217;s move some variables that were copied to the Sitecore.config back to the Web.config first.
 
-
+{% gist bff33a78b5457d079e47459a2ff2624e %}
 
 Now we have a nice base to work from.
 
@@ -78,6 +79,7 @@ The connection strings are not in the <sitecore /> section. So we need a way to 
 
 Change the connectionStrings section in your Web.config file, like this:  
 
+{% gist c40516c17a17bb8531912bbfa391a63f %}
 
 Don&#8217;t forget to remove the original ConnectionStrings.config file to avoid confusion.
 
@@ -86,13 +88,13 @@ Don&#8217;t forget to remove the original ConnectionStrings.config file to avoid
 From now on, if you want to make something environment specific, you do the following:
 
   1. Replace the string in Sitecore.Config with a meaningful variable, for example  
-    
+    {% gist 4f123003cc8f759cbcce0c36caf33940 %}
   2. Then add a <sc.variable /> element to the Web.config for each environment (or only do it for DEV and use a diff tool before the deployment to see what you need to change)  
-    
+    {% gist 109e1a7b3d240671e92e23b039c8185d %}
 
 Here is a simple example of what your <sitecore /> section may look like for one environment in particular:
 
-
+{% gist 19bee778b0c5ce695143a804d7d49ec0 %}
 
 <span style="text-decoration: underline;">Checking configuration:</span>
 

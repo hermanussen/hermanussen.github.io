@@ -40,7 +40,7 @@ Please note that the datasource and fieldname point to an item&#8217;s field in 
 
 All that was needed now was to implement the RuleBasedGutterRenderer.RuleBased class. Which is what I did:
 
-
+{% gist d02eda19318947d0ce7c4f196bb95c07 %}
 
 So now all you have to do is set a rule in that field and you are ready to go (be sure to clear the Sitecore cache and refresh the Sitecore desktop after changing the rule).
 

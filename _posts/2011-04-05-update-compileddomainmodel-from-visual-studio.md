@@ -41,3 +41,5 @@ You may notice a few things that are not that convenient yet:
 I&#8217;ve never coded a macro before; I&#8217;ve never even coded in VB.NET before (yes, I said the UGLY word). But even with these minor issues, the macro does seem to make things a little easier if you need to regenerate the code often.
 
 Here&#8217;s the code for the macro. Have fun!
+
+{% gist 630333ff21046f3e4107f3cf1ce1531a %}

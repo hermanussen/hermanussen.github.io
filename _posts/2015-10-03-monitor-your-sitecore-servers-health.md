@@ -33,9 +33,7 @@ It&#8217;s quite easy to configure and extend. Just read through the implementat
 
 You&#8217;ll want to limit who gets to use the monitoring page, to prevent abuse and prevent hackers from getting details about your implementation. This is especially important if the checks you are doing may impact system performance significantly. Make sure your monitoring tool&#8217;s requests to the page match your security settings here.
 
-
-
-&nbsp;
+{% gist 510223292b2971a659b8d26f7c7bd4f5 %}
 
 **Adding checks**
 
@@ -43,8 +41,7 @@ You can add checks to do when the page is requested by adding them to the Checks
 
 It&#8217;s also easy to implement your own specific types of checks. Add them to the region &#8220;actual checks&#8221; as classes that implement the ISitecoreCheck interface (or use the SitecoreCheckBase class).  
 
-
-&nbsp;
+{% gist edbdd7d34c62fd291a3592f97a80619b %}
 
 **Tags**
 
@@ -52,7 +49,6 @@ You may not always want to run the same checks. Perhaps some checks should only 
 
 [<img class="aligncenter size-full wp-image-261" title="fail" src="/wp-content/uploads/2015/10/fail.png" alt="" width="519" height="506" srcset="/wp-content/uploads/2015/10/fail.png 519w, /wp-content/uploads/2015/10/fail-300x292.png 300w" sizes="(max-width: 519px) 100vw, 519px" />](/wp-content/uploads/2015/10/fail.png)
 
-  
-&nbsp;
+{% gist 2ab3c72666c265e6b5f21195e5fa9e1c %}
 
 Let me know if you have any questions/suggestions.

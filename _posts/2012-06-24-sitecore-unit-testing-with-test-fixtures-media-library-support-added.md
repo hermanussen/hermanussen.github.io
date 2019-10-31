@@ -20,6 +20,8 @@ I recently wrote a post on [Sitecore unit testing with test fixtures]({% post_ur
 
 So now, you can also unit test code that imports an image into the media library.
 
-
+{% gist 58da78cfab0db2a4e7d91868cb80d06d %}
 
 And here&#8217;s some code to check if it works correctly.
+
+{% gist 570c556e02ab7cbc7ca854ddb23072e6 %}

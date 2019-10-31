@@ -23,3 +23,4 @@ Why? Well, I just thought it would be fun to do. The items that have no children
 <img class="alignnone" title="Inverse Sitecore tree" src="/wp-content/uploads/screenshot_inverse_sitecore_tree.JPG" alt="Inverse Sitecore tree" width="158" height="788" /> 
 
 Here&#8217;s the code (just copy it to a file named InverseContentTreeViewer.aspx):
+{% gist 2a87013d89597e97cd4709ad9c9a2d6b %}

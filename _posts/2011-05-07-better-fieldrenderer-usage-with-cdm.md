@@ -22,7 +22,7 @@ Yesterday I was brainstorming with some colleagues about a better way of using t
 
 **Traditional FieldRenderer without CDM:**
 
-
+{% gist 4882c1c861f7e981078c3afb996bb3a8 %}
 
   * Simple implementation
   * Spelling errors result in not displaying anything instead of an error
@@ -30,7 +30,7 @@ Yesterday I was brainstorming with some colleagues about a better way of using t
 
 **Use CDM without FieldRenderer:**
 
-
+{% gist 7d56c38060fd6c16586966de0091f782 %}
 
   * Easy implementation
   * Typed access
@@ -38,7 +38,7 @@ Yesterday I was brainstorming with some colleagues about a better way of using t
 
 **Traditional FieldRenderer with CDM (currently the most used with CDM):**
 
-
+{% gist 80f13e2feb5a68481fcfedae42c1b853 %}
 
   * A bit of a pain to unwrap the Sitecore item every time
   * Spelling errors result in compilation errors, which is great!
@@ -46,14 +46,14 @@ Yesterday I was brainstorming with some colleagues about a better way of using t
 
 **Custom FieldRenderer with CDM:**
 
-
+{% gist 4f4f0206c1563fed06315535d2b56b85 %}
 
   * The same as the previous one, but without the need to unwrap the Sitecore item every time
   * You need to use a non-standard control
 
 **Custom FieldRenderer with CDM and lambda expression:**
 
-
+{% gist dc13e39bf306aa134e2763153793de0a %}
 
   * The best possible type-safety
   * Only usable in .NET 4
@@ -63,6 +63,6 @@ The last one is the nicest one in my opinion. You can use it as if you are not u
 
 It works by using the <a title="MSDN about Expression Trees" href="http://msdn.microsoft.com/en-us/library/bb397951.aspx">expression tree</a> of the passed-in lambda expression and reflection to determine the name of the field. It shouldn&#8217;t be too hard to create similar controls for sc:Link and sc:Image. Here&#8217;s the code:
 
-
+{% gist 2ffb022f9cddef2120efb5ba155d39b0 %}
 
 Good luck!

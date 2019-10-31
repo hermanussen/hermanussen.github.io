@@ -22,7 +22,7 @@ Now, when developing in ASP.NET Web forms, I will usually have a base class for 
 
 So, after completing the steps in this blog post, you will be able to make a Razor view like this:
 
-
+{% gist 74c8537dcbbbd31d145ee7b63604f66a %}
 
 Line-by-line explanation:
 
@@ -34,25 +34,25 @@ Line-by-line explanation:
 
 The following code is for the RenderingModel. It allows access to the datasource itemwrapper in the type you want. Notice that the &#8220;out&#8221; keyword is used before the generic type parameter declaration. This means that the type is covariant, so that you can use a base type in your model declaration at the top of the Razor view (e.g. IRenderingModel<PageBase> instead of IRenderingModel<Page>).
 
-
+{% gist 39be45c52c52e09b0314299419c6753e %}
 
 To create the RenderingModel, we need to plug the following in to the &#8220;mvc.GetModel&#8221; pipeline.
 
-
+{% gist 1575f7d99575a1a492f949e9aeabd3dd %}
 
 Hook this code up to the &#8220;mvc.GetModel&#8221; pipeline using the following configuration (use a config file in the &#8220;/App_Config/Include&#8221; folder to make a nice patch of this):
 
-
+{% gist 953c25af4a64cd44725073f669af1180 %}
 
 Now, when you make a rendering, be sure to add &#8220;typedmodel=1&#8221; to the parameters field in Sitecore for that rendering. That way, the &#8220;mvc.GetModel&#8221; pipeline will know when to create a typed model.
 
 And you&#8217;re all set to use the typed model in your Razor views. But there&#8217;s one thing left; the lambda syntax support. This works in the same way as the CdmFieldRenderer control from a [previous blog post]({% post_url 2011-05-07-better-fieldrenderer-usage-with-cdm %} "Better FieldRenderer usage with CDM"). You can use the following helper class:
 
-
+{% gist e0fabeb27b3acaa2539649199bc875b1 %}
 
 To be able to use this extension without having to import it every time, you can add it to the &#8220;/Views/Web.config&#8221; file, like this:
 
-
+{% gist c24d87a5e18e510efcf1d1cc65ba1ee0 %}
 
 I know it takes a little time to setup, but it makes your Razor views very clean and you&#8217;ll have code-completion for your field names. If you want, you can compile your Razor views at build-time by editing your MVC project file and setting &#8220;<MvcBuildViews>true</MvcBuildViews>&#8221;.
 

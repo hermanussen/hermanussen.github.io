@@ -36,12 +36,12 @@ To make this possible, you should first check the &#8220;Platform Mode&#8221; ch
 Note that the wrapper classes need to be resolved globally when using the platform mode. To make that possible, there is a dependency on the module itself. So you can&#8217;t use the &#8220;Remove dependencies&#8221; function when you want to use the platform mode.
 
 If you generate the code now, you&#8217;ll see that a comment is generated:  
-
+{% gist b5b09fa23aff7adbd5b8ce6f15e36a1b %}
 
 As is explained, you must now make url&#8217;s to generate code that is specific to your project. In this case, you could generate code for the platform project and the specific &#8220;SomeProject&#8221; project. Using the following url&#8217;s, you can do that:
 
-  1. http://sitecoredemo/sitecore/shell/Applications/CompiledDomainModel/CodeGenerator.aspx?platformsets=Core|PlatformTemplatesSet|PlatformFixedPaths
-  2. http://sitecoredemo/sitecore/shell/Applications/CompiledDomainModel/CodeGenerator.aspx?platformsets=SomeProjectTemplatesSet|SomeProjectFixedPathsSet
+1. http://sitecoredemo/sitecore/shell/Applications/CompiledDomainModel/CodeGenerator.aspx?platformsets=Core|PlatformTemplatesSet|PlatformFixedPaths
+2. http://sitecoredemo/sitecore/shell/Applications/CompiledDomainModel/CodeGenerator.aspx?platformsets=SomeProjectTemplatesSet|SomeProjectFixedPathsSet
 
 These url&#8217;s will only generate the code for the DomainObjectSets and FixedPathSets (check the [documentation](/sitecore/CompiledDomainModel/Documentation/default.htm#chapter2 "CDM docs") for an explanation about these sets) that are referenced in the url.
 

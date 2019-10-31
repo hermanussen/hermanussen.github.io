@@ -50,203 +50,211 @@ So I&#8217;ve made a page that tests the performance of any DataProvider that yo
 Go to TestDataProvider.aspx and select the SQL Server data provider and the MongoDB data provider if you want to check the performance gain on your machine. My results are as follows:
 
 <table>
-  <colgroup> <col width="86"></col> <col width="227"></col> <col width="227"></col> <col width="227"></col> </colgroup> <tr>
-    <td width="86" height="32">
-      <span style="color: #ffffff;"><strong>Operation</strong></span>
-    </td>
+  <colgroup>
+    <col width="86" />
+    <col width="227" />
+    <col width="227" />
+    <col width="227" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <td width="86" height="32">
+        <span><strong>Operation</strong></span>
+      </td>
+      
+      <td width="227">
+        <span><strong>Duration (in milliseconds) – SQL</strong></span>
+      </td>
+      
+      <td width="227">
+        <span><strong>Duration (in milliseconds) – MongoDB with safe mode ON</strong></span>
+      </td>
+      
+      <td width="227">
+        <span><strong>Duration (in milliseconds) – MongoDB with safe mode OFF</strong></span>
+      </td>
+    </tr>
     
-    <td width="227">
-      <span style="color: #ffffff;"><strong>Duration (in milliseconds) – SQL</strong></span>
-    </td>
+    <tr>
+      <td height="17">
+        <span>Create</span>
+      </td>
+      
+      <td>
+        <span>3723</span>
+      </td>
+      
+      <td>
+        <span>1057</span>
+      </td>
+      
+      <td>
+        <span>776</span>
+      </td>
+    </tr>
     
-    <td width="227">
-      <span style="color: #ffffff;"><strong>Duration (in milliseconds) – MongoDB with safe mode ON</strong></span>
-    </td>
+    <tr>
+      <td height="17">
+        <span>Add versions</span>
+      </td>
+      
+      <td>
+        <span>5333</span>
+      </td>
+      
+      <td>
+        <span>2750</span>
+      </td>
+      
+      <td>
+        <span>2181</span>
+      </td>
+    </tr>
     
-    <td width="227">
-      <span style="color: #ffffff;"><strong>Duration (in milliseconds) – MongoDB with safe mode OFF</strong></span>
-    </td>
-  </tr>
-  
-  <tr>
-    <td height="17">
-      <span style="color: #ffffff;">Create</span>
-    </td>
+    <tr>
+      <td height="32">
+        <span>Change some field values</span>
+      </td>
+      
+      <td>
+        <span>7005</span>
+      </td>
+      
+      <td>
+        <span>1325</span>
+      </td>
+      
+      <td>
+        <span>1092</span>
+      </td>
+    </tr>
     
-    <td>
-      <span style="color: #ffffff;">3723</span>
-    </td>
+    <tr>
+      <td height="17">
+        <span>Get parent id&#8217;s</span>
+      </td>
+      
+      <td>
+        <span>2075</span>
+      </td>
+      
+      <td>
+        <span>318</span>
+      </td>
+      
+      <td>
+        <span>328</span>
+      </td>
+    </tr>
     
-    <td>
-      <span style="color: #ffffff;">1057</span>
-    </td>
+    <tr>
+      <td height="17">
+        <span>Get child id&#8217;s</span>
+      </td>
+      
+      <td>
+        <span>901</span>
+      </td>
+      
+      <td>
+        <span>275</span>
+      </td>
+      
+      <td>
+        <span>279</span>
+      </td>
+    </tr>
     
-    <td>
-      <span style="color: #ffffff;">776</span>
-    </td>
-  </tr>
-  
-  <tr>
-    <td height="17">
-      <span style="color: #ffffff;">Add versions</span>
-    </td>
+    <tr>
+      <td height="32">
+        <span>Get item definitions</span>
+      </td>
+      
+      <td>
+        <span>2026</span>
+      </td>
+      
+      <td>
+        <span>351</span>
+      </td>
+      
+      <td>
+        <span>348</span>
+      </td>
+    </tr>
     
-    <td>
-      <span style="color: #ffffff;">5333</span>
-    </td>
+    <tr>
+      <td height="32">
+        <span>Get item versions</span>
+      </td>
+      
+      <td>
+        <span>2051</span>
+      </td>
+      
+      <td>
+        <span>693</span>
+      </td>
+      
+      <td>
+        <span>676</span>
+      </td>
+    </tr>
     
-    <td>
-      <span style="color: #ffffff;">2750</span>
-    </td>
+    <tr>
+      <td height="32">
+        <span>Get field values</span>
+      </td>
+      
+      <td>
+        <span>1986</span>
+      </td>
+      
+      <td>
+        <span>656</span>
+      </td>
+      
+      <td>
+        <span>678</span>
+      </td>
+    </tr>
     
-    <td>
-      <span style="color: #ffffff;">2181</span>
-    </td>
-  </tr>
-  
-  <tr>
-    <td height="32">
-      <span style="color: #ffffff;">Change some field values</span>
-    </td>
+    <tr>
+      <td height="17">
+        <span>Delete</span>
+      </td>
+      
+      <td>
+        <span>9379</span>
+      </td>
+      
+      <td>
+        <span>372</span>
+      </td>
+      
+      <td>
+        <span>44</span>
+      </td>
+    </tr>
     
-    <td>
-      <span style="color: #ffffff;">7005</span>
-    </td>
-    
-    <td>
-      <span style="color: #ffffff;">1325</span>
-    </td>
-    
-    <td>
-      <span style="color: #ffffff;">1092</span>
-    </td>
-  </tr>
-  
-  <tr>
-    <td height="17">
-      <span style="color: #ffffff;">Get parent id&#8217;s</span>
-    </td>
-    
-    <td>
-      <span style="color: #ffffff;">2075</span>
-    </td>
-    
-    <td>
-      <span style="color: #ffffff;">318</span>
-    </td>
-    
-    <td>
-      <span style="color: #ffffff;">328</span>
-    </td>
-  </tr>
-  
-  <tr>
-    <td height="17">
-      <span style="color: #ffffff;">Get child id&#8217;s</span>
-    </td>
-    
-    <td>
-      <span style="color: #ffffff;">901</span>
-    </td>
-    
-    <td>
-      <span style="color: #ffffff;">275</span>
-    </td>
-    
-    <td>
-      <span style="color: #ffffff;">279</span>
-    </td>
-  </tr>
-  
-  <tr>
-    <td height="32">
-      <span style="color: #ffffff;">Get item definitions</span>
-    </td>
-    
-    <td>
-      <span style="color: #ffffff;">2026</span>
-    </td>
-    
-    <td>
-      <span style="color: #ffffff;">351</span>
-    </td>
-    
-    <td>
-      <span style="color: #ffffff;">348</span>
-    </td>
-  </tr>
-  
-  <tr>
-    <td height="32">
-      <span style="color: #ffffff;">Get item versions</span>
-    </td>
-    
-    <td>
-      <span style="color: #ffffff;">2051</span>
-    </td>
-    
-    <td>
-      <span style="color: #ffffff;">693</span>
-    </td>
-    
-    <td>
-      <span style="color: #ffffff;">676</span>
-    </td>
-  </tr>
-  
-  <tr>
-    <td height="32">
-      <span style="color: #ffffff;">Get field values</span>
-    </td>
-    
-    <td>
-      <span style="color: #ffffff;">1986</span>
-    </td>
-    
-    <td>
-      <span style="color: #ffffff;">656</span>
-    </td>
-    
-    <td>
-      <span style="color: #ffffff;">678</span>
-    </td>
-  </tr>
-  
-  <tr>
-    <td height="17">
-      <span style="color: #ffffff;">Delete</span>
-    </td>
-    
-    <td>
-      <span style="color: #ffffff;">9379</span>
-    </td>
-    
-    <td>
-      <span style="color: #ffffff;">372</span>
-    </td>
-    
-    <td>
-      <span style="color: #ffffff;">44</span>
-    </td>
-  </tr>
-  
-  <tr>
-    <td height="17">
-      <span style="color: #ffffff;"><strong>Total</strong></span>
-    </td>
-    
-    <td>
-      <span style="color: #ffffff;">34479</span>
-    </td>
-    
-    <td>
-      <span style="color: #ffffff;">7798</span>
-    </td>
-    
-    <td>
-      <span style="color: #ffffff;">6401</span>
-    </td>
-  </tr>
+    <tr>
+      <td height="17">
+        <span><strong>Total</strong></span>
+      </td>
+      
+      <td>
+        <span>34479</span>
+      </td>
+      
+      <td>
+        <span>7798</span>
+      </td>
+      
+      <td>
+        <span>6401</span>
+      </td>
+    </tr>
+  </tbody>
 </table>
 
 Note that the <a title="MongoDB safe mode explanation" href="http://stackoverflow.com/questions/4604868/mongodb-c-sharp-safemode-official-driver">safe mode</a> in MongoDB makes writing to the database more reliable, and also a little slower (you can find a setting for this in MongoDataProvider.config). Turning the safe mode off might be interesting on content delivery environments, because that&#8217;s where the performance really matters and you can always re-publish something if you need to (though it would be very annoying if this would be needed).

@@ -26,16 +26,12 @@ I&#8217;ve added a project called Sitecore.FakeDb.Serialization to the FakeDb pr
 
 You can easily mix these approaches. Here&#8217;s an example of a unit test using both:
 
-
-
-&nbsp;
+{% gist f1c6ae921687ae2551131e6263d34ad2 %}
 
 You can find these changes in <a title="Sitecore.FakeDb fork on GitHub" href="https://github.com/hermanussen/Sitecore.FakeDb">my fork on GitHub</a>. To use them, you need to do the following afer you&#8217;ve setup Sitecore.FakeDb:  
 &#8211; Add a reference from your unit test project to Sitecore.FakeDb.Serialization.  
 &#8211; Edit the App.config file and add the following section (change the folders to point to your serialized data, or add/remove folders as needed):
 
-
-
-&nbsp;
+{% gist b2ab7a788b463a77aa45e5a59944ea07 %}
 
 Have fun coding!

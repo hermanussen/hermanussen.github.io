@@ -32,41 +32,23 @@ I&#8217;ve shared the code <a title="Sitecore FixtureDataProvider" href="https:/
 There are three projects in the solution:
 
   1. <span style="line-height: 19px;"><strong>FixtureDataProvider</strong> &#8211; This is the project that contains the DataProvider. If you inherit your unit testing class from SitecoreUnitTestBase, then some basic Sitecore stuff will be configured for you before the tests are executed.</span>
-  2. <span style="line-height: 19px;"><strong>SampleSitecoreProject</strong> &#8211; This project contains some logic that utilizes the Sitecore content API. More specifically, it can read <a title="KML Tutorial" href="https://developers.google.com/kml/documentation/kml_tut">KML</a> and makes Sitecore items for every <a title="Placemark part of the KML tutorial" href="https://developers.google.com/kml/documentation/kml_tut#placemarks">Placemark</a> (containing a description and the coordinates of the placemark):<br /> <br /> &nbsp;</p> 
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <p>
-      </span></li> 
-      
-      <li>
-        <span style="line-height: 19px;"><strong>SampleTestProject</strong> &#8211; This project contains the SampleTestProject.dll.config file, which is kind of like a very minimal Web.config (without the need for an actual website to be running). The project also contains a data folder that has some serialized items and a zip package (the test fixture data). And you&#8217;ll also find some KML files to be imported. The UnitTest class contains the test of the previous code:<br /> <br /> &nbsp;</p> 
-        
-        <p>
-          &nbsp;
-        </p>
-        
-        <p>
-          </span></li> </ol> 
-          
-          <p>
-            Some important points I want to make:
-          </p>
-          
-          <ul>
-            <li>
-              Events and cache are disabled by default. So if you need to test those aspects, you&#8217;ll have to do some extra work.
-            </li>
-            <li>
-              Though I attempted to emulate the SQL DataProvider as much as possible, I can not guarantee that it behaves in the exact same way at all times. Remember that unit testing can never replace integration testing and functional testing altogether.
-            </li>
-            <li>
-              <del>I have not yet implemented support for media</del> (I might add support for that later, and for the MongoDB DataProvider as well). &#8211; Implemented (not yet for the MongoDB DataProvider)
-            </li>
-          </ul>
-          
-          <p>
-            Happy testing! And let me know if you have any questions or ideas!
-          </p>
+  2. <span style="line-height: 19px;"><strong>SampleSitecoreProject</strong> &#8211; This project contains some logic that utilizes the Sitecore content API. More specifically, it can read <a title="KML Tutorial" href="https://developers.google.com/kml/documentation/kml_tut">KML</a> and makes Sitecore items for every <a title="Placemark part of the KML tutorial" href="https://developers.google.com/kml/documentation/kml_tut#placemarks">Placemark</a> (containing a description and the coordinates of the placemark): {% gist 0bf4d628490e7dc171c2e4ac895fac11 %}
+  3. <span style="line-height: 19px;"><strong>SampleTestProject</strong> &#8211; This project contains the SampleTestProject.dll.config file, which is kind of like a very minimal Web.config (without the need for an actual website to be running). The project also contains a data folder that has some serialized items and a zip package (the test fixture data). And you&#8217;ll also find some KML files to be imported. The UnitTest class contains the test of the previous code: {% gist 9c8c7bdf45231a9349818b48f2161eee %}
+     
+Some important points I want to make:
+  
+  <ul>
+    <li>
+      Events and cache are disabled by default. So if you need to test those aspects, you&#8217;ll have to do some extra work.
+    </li>
+    <li>
+      Though I attempted to emulate the SQL DataProvider as much as possible, I can not guarantee that it behaves in the exact same way at all times. Remember that unit testing can never replace integration testing and functional testing altogether.
+    </li>
+    <li>
+      <del>I have not yet implemented support for media</del> (I might add support for that later, and for the MongoDB DataProvider as well). &#8211; Implemented (not yet for the MongoDB DataProvider)
+    </li>
+  </ul>
+  
+  <p>
+    Happy testing! And let me know if you have any questions or ideas!
+  </p>

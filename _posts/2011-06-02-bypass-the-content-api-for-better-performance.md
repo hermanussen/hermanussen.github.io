@@ -33,27 +33,27 @@ Drawbacks of the second method:
   1. Relies on the underlying implementation. You may have to change the implementation with future upgrades.
   2. If the stripped functionality turns out to be needed in the future, the implementation may become unsuitable.
 
-**An example of the second method  
-** 
+**An example of the second method** 
 
 If we want to get the descendant nodes of a certain item, we can easily use the content API:
 
-
+{% gist acb8b9370eec3df52ea0a4a6d223e277 %}
 
 But if we want to limit the descendants to items with a certain template, this is a better method:  
 
+{% gist 83c47c93a51595d5008a3a97ef81e363 %}
 
 However, in this case, we will not get items with template &#8216;Jpeg&#8217; or &#8216;Pdf&#8217;. Those templates inherit from the &#8216;File&#8217; template. So if we want to get all descendants that inherit from the &#8216;File&#8217; template, we need a helper method:
 
-
+{% gist f300228ee5d5bba659b17ec6ae6aa748 %}
 
 You could make this into an extension method if you want. Here&#8217;s how we can use this method to get all the descendants that inherit from &#8216;File&#8217;:
 
-
+{% gist f5e4779ac5c684db9b2c1501d71031f9 %}
 
 This will be quite slow if there are many descendants. We will bypass the content API and query the SQL server database directly to make it much faster.
 
-
+{% gist 620183574beab5fcf2b311dd3ee5b3d0 %}
 
 Place the query in a stored procedure if you want to use this method in production. For reference, <a title="Accessing hierarchical node structures from sql" href="http://bloggingabout.net/blogs/program.x/archive/2008/07/29/sitecore-accessing-hierarchical-node-structures-from-sql.aspx">here is a different article</a> which discusses bypassing the content API.
 
@@ -64,3 +64,5 @@ In my opinion, any performance improvement (especially if it has significant dra
 <img class="alignnone" title="Speed measuring results" src="/wp-content/uploads/bypass_content_api_screenshot.png" alt="" width="519" height="161" /> 
 
 As you can see, the performance gain can be significant. So if the drawbacks are acceptable, this may be a good option. Here is the aspx so you can test it for yourself:
+
+{% gist 0af8c5cf2b25bb96faa7138a32f66aa2 %}

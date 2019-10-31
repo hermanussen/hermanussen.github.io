@@ -24,16 +24,17 @@ One very annoying problem I&#8217;ve run into when using databinding in ASP.NET 
 
 This works well in most cases. But when you use databinding it sort of breaks. For example:
 
-
+{% gist da9a597b6df9f8ac3ad71e3ed69648fb %}
 
 This code will work perfectly fine, unless &#8220;SomeProperty&#8221; evaluates to null, because the contents of the placeholder are always evaluated! This problem is especially annoying with Sitecore FieldRenderers, which don&#8217;t allow the &#8220;Item&#8221; property to be null. A simple fix to this problem is to repeat the null-check within the placeholder, like so:
 
-
+{% gist 8a92df2ab9e171f14ce9f726309d1a32 %}
 
 But if you would have a more complicated condition, many unsafe binding statements within the placeholder or nesting of several placeholders, this fix can prove to be quite cumbersome.
 
 So I tried to find a good workaround for this problem and I observed the repeater control. It does not have this problem, because the contents of &#8220;ItemTemplate&#8221; will never be evaluated if the collection in the datasource is empty. This is what I came up with:  
 
+{% gist e02c32fffcacefdeb76476319d53dd22 %}
 
 That works really well! I used the repeater as a placeholder and now, if &#8220;SomeProperty&#8221; evaluates to null, there will be no problem; the contents of &#8220;ItemTemplate&#8221; are never evaluated by the databinder.
 
@@ -41,10 +42,10 @@ Still, this is quite an ugly workaround, because it&#8217;s pretty verbose and n
 
 And I found one! I created a custom control that derives from the PlaceHolder control. The only difference in behaviour is that the contents of the control are not evaluated by the databinder if the &#8220;Visible&#8221; property is null. Here&#8217;s the code for the control:
 
-
+{% gist 2c2456940af065fcb2ab4e4e659ad103 %}
 
 This is a pretty simple change, but it makes life so much easier. If we import the control and use it in the following way, we no longer have to worry about nullref problems:
 
-
+{% gist bb0343dcf30e59609a1c0d4eb7fae394 %}
 
 Happy coding!

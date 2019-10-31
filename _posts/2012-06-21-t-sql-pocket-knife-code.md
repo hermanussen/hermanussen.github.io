@@ -20,10 +20,11 @@ Sometimes I like to dive into the SQL databases that hold all of our precious Si
 
 Here is a script that creates 2 handy functions that you can use to make querying Sitecore data just a little easier:
 
-
+{% gist a4ee18ce9e922a4fd3cb96d1566f0ec1 %}
 
 After running this script (be sure to change the statement in line 1 to match your database name), you can write queries such as this one:  
 
+{% gist 7d78d0817f8efda12f18d424ce89271f %}
 
 This results in:
 

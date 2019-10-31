@@ -21,12 +21,12 @@ I&#8217;m not sure if this has been done before, but I thought it would be fun t
 I&#8217;m not really certain that it is even a useful control in its current form. But it should be easy enough to convert this control so that it can be used in a dynamic CSS file. If you seriously want to use this, check out <a title="Inline Images with Data URLs" href="http://www.websiteoptimization.com/speed/tweak/inline-images/">this page</a>.
 
 Here&#8217;s the code:  
-
+{% gist 5b0cc21a5a17da14db8fa2bcda2a219e %}
 
 And if you want to use it in your page, register the control:  
-
+{% gist 625d621aafdbb512568ce30efc0c73b6 %}
 
 And you&#8217;ll be able to use it like any Sitecore image (including the MaxWidth and MaxHeight properties):  
-
+{% gist 5c6d438f348865ea38fb50dc38dac696 %}
 
 Hell yeah!

@@ -22,7 +22,7 @@ If you&#8217;re not into the holiday spirit yet, then here&#8217;s a very ugly a
 
 Just paste the following snippet into the url field of a new bookmark and click it when you have your Sitecore desktop opened (tested in Chrome only). I promise that the script does not intentionally mess up your work, but nevertheless: use it at your own risk.
 
-
+{% gist 8a3bcc5ed18ba1c3d72715d011468f23 %}
 
 Here&#8217;s a quick preview of the horror that awaits you:
 
