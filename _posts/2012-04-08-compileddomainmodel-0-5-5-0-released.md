@@ -4,6 +4,7 @@ title: CompiledDomainModel 0.5.5.0 released!
 date: 2012-04-08T21:19:59+01:00
 author: Robin Hermanussen
 layout: post
+background: '/img/bg-index.jpg'
 guid: http://hermanussen.eu/sitecore/wordpress/?p=100
 permalink: /2012/04/compileddomainmodel-0-5-5-0-released/
 redirect_from:

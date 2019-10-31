@@ -4,6 +4,7 @@ title: Check your code with Unicorn serialized data
 date: 2017-01-26T09:59:10+01:00
 author: Robin Hermanussen
 layout: post
+background: '/img/bg-index.jpg'
 guid: http://hermanussen.eu/sitecore/wordpress/?p=284
 permalink: /2017/01/check-your-code-with-unicorn-serialized-data/
 redirect_from:

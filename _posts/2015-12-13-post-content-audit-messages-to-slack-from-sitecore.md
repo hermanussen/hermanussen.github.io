@@ -4,6 +4,7 @@ title: Post content audit messages to Slack from Sitecore
 date: 2015-12-13T23:18:52+01:00
 author: Robin Hermanussen
 layout: post
+background: '/img/bg-index.jpg'
 guid: http://hermanussen.eu/sitecore/wordpress/?p=271
 permalink: /2015/12/post-content-audit-messages-to-slack-from-sitecore/
 redirect_from:

@@ -4,6 +4,7 @@ title: Turn any Sitecore package into a NuGet package
 date: 2013-05-13T23:03:22+01:00
 author: Robin Hermanussen
 layout: post
+background: '/img/bg-index.jpg'
 guid: http://hermanussen.eu/sitecore/wordpress/?p=208
 permalink: /2013/05/turn-any-sitecore-package-into-a-nuget-package/
 redirect_from:

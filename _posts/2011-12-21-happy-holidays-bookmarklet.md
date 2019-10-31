@@ -4,6 +4,7 @@ title: Happy holidays bookmarklet
 date: 2011-12-21T22:41:28+01:00
 author: Robin Hermanussen
 layout: post
+background: '/img/bg-index.jpg'
 guid: http://hermanussen.eu/sitecore/wordpress/?p=90
 permalink: /2011/12/happy-holidays-bookmarklet/
 redirect_from:

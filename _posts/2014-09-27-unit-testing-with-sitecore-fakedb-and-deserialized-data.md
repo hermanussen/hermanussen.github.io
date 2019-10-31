@@ -4,6 +4,7 @@ title: Unit testing with Sitecore.FakeDb and deserialized data
 date: 2014-09-27T19:14:44+01:00
 author: Robin Hermanussen
 layout: post
+background: '/img/bg-index.jpg'
 guid: http://hermanussen.eu/sitecore/wordpress/?p=226
 permalink: /2014/09/unit-testing-with-sitecore-fakedb-and-deserialized-data/
 redirect_from:

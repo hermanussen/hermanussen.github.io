@@ -4,6 +4,7 @@ title: Validating your code references to serialized data
 date: 2014-10-12T21:04:18+01:00
 author: Robin Hermanussen
 layout: post
+background: '/img/bg-index.jpg'
 guid: http://hermanussen.eu/sitecore/wordpress/?p=241
 permalink: /2014/10/validating-your-code-references-to-serialized-data/
 redirect_from:

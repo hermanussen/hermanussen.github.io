@@ -4,6 +4,7 @@ title: Better FieldRenderer usage with CDM
 date: 2011-05-07T12:44:08+01:00
 author: Robin Hermanussen
 layout: post
+background: '/img/bg-index.jpg'
 guid: http://hermanussen.eu/sitecore/wordpress/?p=50
 permalink: /2011/05/better-fieldrenderer-usage-with-cdm/
 redirect_from:

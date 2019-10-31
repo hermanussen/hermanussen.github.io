@@ -4,6 +4,7 @@ title: The inverse Sitecore tree
 date: 2011-02-13T21:57:14+01:00
 author: Robin Hermanussen
 layout: post
+background: '/img/bg-index.jpg'
 guid: http://hermanussen.eu/sitecore/wordpress/?p=17
 permalink: /2011/02/the-inverse-sitecore-tree/
 redirect_from:

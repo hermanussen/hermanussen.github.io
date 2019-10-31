@@ -4,6 +4,7 @@ title: Sitecore unit testing with test fixtures
 date: 2012-06-10T20:58:09+01:00
 author: Robin Hermanussen
 layout: post
+background: '/img/bg-index.jpg'
 guid: http://hermanussen.eu/sitecore/wordpress/?p=148
 permalink: /2012/06/sitecore-unit-testing-with-test-fixtures/
 redirect_from:

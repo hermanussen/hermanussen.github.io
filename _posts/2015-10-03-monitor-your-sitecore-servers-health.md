@@ -4,6 +4,7 @@ title: 'Monitor your Sitecore server&#8217;s health'
 date: 2015-10-03T17:51:12+01:00
 author: Robin Hermanussen
 layout: post
+background: '/img/bg-index.jpg'
 guid: http://hermanussen.eu/sitecore/wordpress/?p=257
 permalink: /2015/10/monitor-your-sitecore-servers-health/
 redirect_from:

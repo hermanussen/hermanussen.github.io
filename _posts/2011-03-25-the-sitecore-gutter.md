@@ -4,6 +4,7 @@ title: The Sitecore Gutter
 date: 2011-03-25T20:34:10+01:00
 author: Robin Hermanussen
 layout: post
+background: '/img/bg-index.jpg'
 guid: http://hermanussen.eu/sitecore/wordpress/?p=31
 permalink: /2011/03/the-sitecore-gutter/
 redirect_from:

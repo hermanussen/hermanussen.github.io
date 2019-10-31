@@ -4,6 +4,7 @@ title: Prevent nullrefs when databinding with placeholders
 date: 2011-04-10T16:21:42+01:00
 author: Robin Hermanussen
 layout: post
+background: '/img/bg-index.jpg'
 guid: http://hermanussen.eu/sitecore/wordpress/?p=43
 permalink: /2011/04/prevent-nullrefs-when-databinding-with-placeholders/
 redirect_from:

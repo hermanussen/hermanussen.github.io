@@ -4,6 +4,7 @@ title: Making Sitecore faster with MongoDB
 date: 2012-05-08T21:58:49+01:00
 author: Robin Hermanussen
 layout: post
+background: '/img/bg-index.jpg'
 guid: http://hermanussen.eu/sitecore/wordpress/?p=107
 permalink: /2012/05/making-sitecore-faster-with-mongodb/
 redirect_from:

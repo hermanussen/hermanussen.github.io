@@ -4,6 +4,7 @@ title: Manage Sitecore config across environments (DTAP)
 date: 2011-05-19T07:24:27+01:00
 author: Robin Hermanussen
 layout: post
+background: '/img/bg-index.jpg'
 guid: http://hermanussen.eu/sitecore/wordpress/?p=56
 permalink: /2011/05/manage-sitecore-config-across-environments-dtap/
 redirect_from:

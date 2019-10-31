@@ -4,6 +4,7 @@ title: Sitecore taskbars wallpaper
 date: 2011-03-05T12:14:37+01:00
 author: Robin Hermanussen
 layout: post
+background: '/img/bg-index.jpg'
 guid: http://hermanussen.eu/sitecore/wordpress/?p=21
 permalink: /2011/03/sitecore-taskbars-wallpaper/
 redirect_from:

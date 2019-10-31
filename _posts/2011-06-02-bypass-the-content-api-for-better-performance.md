@@ -4,6 +4,7 @@ title: Bypass the content API for better performance
 date: 2011-06-02T15:26:06+01:00
 author: Robin Hermanussen
 layout: post
+background: '/img/bg-index.jpg'
 guid: http://hermanussen.eu/sitecore/wordpress/?p=74
 permalink: /2011/06/bypass-the-content-api-for-better-performance/
 redirect_from:

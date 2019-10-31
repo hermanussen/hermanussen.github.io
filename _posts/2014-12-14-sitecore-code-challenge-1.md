@@ -4,6 +4,7 @@ title: Sitecore Code Challenge 1
 date: 2014-12-14T15:27:19+01:00
 author: Robin Hermanussen
 layout: post
+background: '/img/bg-index.jpg'
 guid: http://hermanussen.eu/sitecore/wordpress/?p=246
 permalink: /2014/12/sitecore-code-challenge-1/
 redirect_from:

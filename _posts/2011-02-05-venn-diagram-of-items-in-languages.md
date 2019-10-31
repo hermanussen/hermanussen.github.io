@@ -4,6 +4,7 @@ title: Venn diagram of items in languages
 date: 2011-02-05T20:34:56+01:00
 author: Robin Hermanussen
 layout: post
+background: '/img/bg-index.jpg'
 guid: http://hermanussen.eu/sitecore/wordpress/?p=7
 permalink: /2011/02/venn-diagram-of-items-in-languages/
 redirect_from:

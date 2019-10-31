@@ -4,6 +4,7 @@ title: 'Sitecore unit testing with test fixtures &#8211; media library support a
 date: 2012-06-24T22:31:56+01:00
 author: Robin Hermanussen
 layout: post
+background: '/img/bg-index.jpg'
 guid: http://hermanussen.eu/sitecore/wordpress/?p=170
 permalink: /2012/06/sitecore-unit-testing-with-test-fixtures-media-library-support-added/
 redirect_from:

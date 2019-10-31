@@ -4,6 +4,7 @@ title: T-SQL pocket knife code
 date: 2012-06-21T22:24:26+01:00
 author: Robin Hermanussen
 layout: post
+background: '/img/bg-index.jpg'
 guid: http://hermanussen.eu/sitecore/wordpress/?p=159
 permalink: /2012/06/t-sql-pocket-knife-code/
 redirect_from:

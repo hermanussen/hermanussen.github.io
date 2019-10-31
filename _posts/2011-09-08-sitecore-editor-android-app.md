@@ -4,6 +4,7 @@ title: Sitecore Editor Android App
 date: 2011-09-08T20:25:41+01:00
 author: Robin Hermanussen
 layout: post
+background: '/img/bg-index.jpg'
 guid: http://hermanussen.eu/sitecore/wordpress/?p=79
 permalink: /2011/09/sitecore-editor-android-app/
 redirect_from:

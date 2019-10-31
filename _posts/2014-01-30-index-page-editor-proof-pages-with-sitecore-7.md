@@ -4,6 +4,7 @@ title: Index page editor proof pages with Sitecore 7
 date: 2014-01-30T23:33:05+01:00
 author: Robin Hermanussen
 layout: post
+background: '/img/bg-index.jpg'
 guid: http://hermanussen.eu/sitecore/wordpress/?p=219
 permalink: /2014/01/index-page-editor-proof-pages-with-sitecore-7/
 redirect_from:

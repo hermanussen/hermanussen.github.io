@@ -4,6 +4,7 @@ title: Unit testing with test fixtures presentation slides and demo project
 date: 2013-03-16T12:54:19+01:00
 author: Robin Hermanussen
 layout: post
+background: '/img/bg-index.jpg'
 guid: http://hermanussen.eu/sitecore/wordpress/?p=194
 permalink: /2013/03/unit-testing-with-test-fixtures-presentation-slides-and-demo-project/
 redirect_from:

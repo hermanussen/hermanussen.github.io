@@ -1,12 +1,68 @@
 ---
 layout: page
 title: About Me
-description: This is what I do.
-background: '/img/bg-about.jpg'
+description: This is me.
+background: '/img/bg-index.jpg'
+redirect_from:
+  - /sitecore/wordpress/about/
+  - /sitecore/wordpress/projects/
 ---
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed quisquam ut perspiciatis, repudiandae nulla animi iste vel, praesentium repellendus molestias aliquid consequatur, earum rem qui error voluptates eius enim consequuntur!</p>
+<p>Hi, my name is Robin Hermanussen. I work at Iquality as a software architect. I'm very passionate about software development.</p>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex alias, earum consectetur quia natus ducimus voluptate explicabo, hic porro reprehenderit, quasi? Tenetur ipsum distinctio laboriosam perspiciatis officiis dolore, architecto id.</p>
-
-<p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam inventore aspernatur repellendus incidunt adipisci modi voluptates recusandae iste eligendi, repudiandae corporis quod aut, optio! Explicabo quaerat unde voluptatem! Itaque, eum!</p>
+<p>These are my pet Sitecore projects. Give them a go if you like and contact me if you have any questions!</p>
+<ul>
+    <li>
+        <a title="CompiledDomainModel"
+            href="http://marketplace.sitecore.net/en/Modules/Compiled_Domain_Model.aspx">CompiledDomainModel </a>– Code
+        generator and validator for Sitecore items. Creates wrapper classes for your templates and makes fixed paths in
+        your content tree easily accessible through code. Sitecore Marketplace <a title="CDM"
+            href="http://marketplace.sitecore.net/Modules/Compiled_Domain_Model.aspx">link</a>.</li>
+    <li>
+        <a title="Sitecore Editor Android App" href="{% post_url 2011-09-08-sitecore-editor-android-app %}">Sitecore
+            Editor Android App</a> – Brings the content editor to your Android Smartphone.</li>
+    <li><a title="MongoDB DataProvider"
+            href="http://marketplace.sitecore.net/en/Modules/Mongo_DB_Data_Provider.aspx">MongoDB DataProvider</a> –
+        Makes it possible to use document-style MongoDB databases in Sitecore instead of SQL Server; it’s <a
+            title="Making Sitecore faster with MongoDB"
+            href="{% post_url 2012-05-08-making-sitecore-faster-with-mongodb %}">very fast</a>.
+        Sitecore Marketplace <a title="MongoDB DataProvider"
+            href="http://marketplace.sitecore.net/Modules/Mongo_DB_Data_Provider.aspx">link</a>.</li>
+    <li><a title="FixtureDataProvider"
+            href="http://marketplace.sitecore.net/en/Modules/Sitecore_Fixture_DataProvider.aspx">FixtureDataProvider</a>
+        – Unit test your logic that uses the Sitecore content API by providing test fixtures and running your code with
+        an in-memory <a title="FixtureDataProvider article"
+            href="{% post_url 2012-06-10-sitecore-unit-testing-with-test-fixtures %}">DataProvider</a>.
+        Sitecore Marketplace <a title="Fixture DataProvider"
+            href="http://marketplace.sitecore.net/en/Modules/Sitecore_Fixture_DataProvider.aspx">link</a>.</li>
+    <li><a title="CreateSitecoreNuGetPackage on GitHub"
+            href="https://github.com/hermanussen/CreateSitecoreNuGetPackage">Create Sitecore NuGet package</a> – Turn
+        any Sitecore package into a NuGet package. Blog post <a title="Turn any Sitecore package into a NuGet package"
+            href="{% post_url 2013-05-13-turn-any-sitecore-package-into-a-nuget-package %}">here</a>.
+    </li>
+    <li><a title="Sitecore Content Usage Tools"
+            href="http://marketplace.sitecore.net/en/Modules/Sitecore_Content_Usage_Tools.aspx">Sitecore Content Usage
+            Tools</a> – In collaboration with my teammates Dražen Janjiček and Johann Baziret. This was our entry for
+        the <a title="Sitecore Hackathon" href="http://sitecorehackathon.org/first-ever-sitecore-hackathon/">Sitecore
+            Hackathon</a> of january 2014. Tools for visualizing content dependencies within Sitecore; when editing
+        content, see on which pages that content is being used.</li>
+    <li><a title="Sitecore Html Crawler on GitHub" href="https://github.com/hermanussen/sitecore-html-crawler">Sitecore
+            Html Crawler</a> – Use this computed field implementation to index Sitecore pages by loading the actual page
+        and extracting the content. Blog post <a title="Index page editor proof pages with Sitecore 7"
+            href="{% post_url 2014-01-30-index-page-editor-proof-pages-with-sitecore-7 %}">here</a>.
+    </li>
+    <li><a title="Sitecore.FakeDb.Serialization"
+            href="https://github.com/sergeyshushlyapin/Sitecore.FakeDb/wiki/FakeDb-Serialization">Sitecore.FakeDb.Serialization</a>
+        – My contribution to the excellent Sitecore.FakeDb project for unit testing. Sitecore.FakeDb.Serialization can
+        be used to write tests that use serialized item data. My blog post about this can be found <a
+            title="FakeDb Serialization blog post"
+            href="{% post_url 2014-09-27-unit-testing-with-sitecore-fakedb-and-deserialized-data %}">here</a>.
+    </li>
+    <li><a title="Sitecore.CodeGenerator"
+            href="https://marketplace.sitecore.net/Modules/SitecoreCodeGenerator.aspx">Sitecore.CodeGenerator</a> – Can
+        be used to generate code in Visual Studio using T4 templates, without requiring the use of TDS. <a
+            title="Sitecore.CodeGenerator blog post"
+            href="{% post_url 2015-04-20-generating-sitecore-code-without-tds %}">Check it
+            out</a>.</li>
+</ul>
+			

@@ -4,6 +4,7 @@ title: Generating Sitecore code without TDS
 date: 2015-04-20T22:40:29+01:00
 author: Robin Hermanussen
 layout: post
+background: '/img/bg-index.jpg'
 guid: http://hermanussen.eu/sitecore/wordpress/?p=251
 permalink: /2015/04/generating-sitecore-code-without-tds/
 redirect_from:

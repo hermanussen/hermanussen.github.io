@@ -4,6 +4,7 @@ title: Inline images from the media library
 date: 2011-02-07T23:13:08+01:00
 author: Robin Hermanussen
 layout: post
+background: '/img/bg-index.jpg'
 guid: http://hermanussen.eu/sitecore/wordpress/?p=12
 permalink: /2011/02/inline-images-from-the-media-library/
 redirect_from:

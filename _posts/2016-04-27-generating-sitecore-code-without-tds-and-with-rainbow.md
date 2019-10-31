@@ -4,6 +4,7 @@ title: Generating Sitecore code without TDS and with Rainbow
 date: 2016-04-27T19:05:00+01:00
 author: Robin Hermanussen
 layout: post
+background: '/img/bg-index.jpg'
 guid: http://hermanussen.eu/sitecore/wordpress/?p=277
 permalink: /2016/04/generating-sitecore-code-without-tds-and-with-rainbow/
 redirect_from:

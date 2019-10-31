@@ -4,6 +4,7 @@ title: Update CompiledDomainModel from Visual Studio
 date: 2011-04-05T22:29:27+01:00
 author: Robin Hermanussen
 layout: post
+background: '/img/bg-index.jpg'
 guid: http://hermanussen.eu/sitecore/wordpress/?p=35
 permalink: /2011/04/update-compileddomainmodel-from-visual-studio/
 redirect_from:

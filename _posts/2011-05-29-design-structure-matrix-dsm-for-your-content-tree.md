@@ -4,6 +4,7 @@ title: Design Structure Matrix (DSM) for your content tree
 date: 2011-05-29T18:27:38+01:00
 author: Robin Hermanussen
 layout: post
+background: '/img/bg-index.jpg'
 guid: http://hermanussen.eu/sitecore/wordpress/?p=63
 permalink: /2011/05/design-structure-matrix-dsm-for-your-content-tree/
 redirect_from:

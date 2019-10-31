@@ -4,6 +4,7 @@ title: Use item wrappers as models in Sitecore MVC
 date: 2013-03-04T19:48:20+01:00
 author: Robin Hermanussen
 layout: post
+background: '/img/bg-index.jpg'
 guid: http://hermanussen.eu/sitecore/wordpress/?p=179
 permalink: /2013/03/use-item-wrappers-as-models-in-sitecore-mvc/
 redirect_from:
