@@ -1,0 +1,20 @@
+td.scStartMenuLeft, td.scStartMenuRight, td.scStartMenuPrograms, div.scContentTree
+{
+  background: url(http://i226.photobucket.com/albums/dd93/beccalambson/Christmas/snowflakes-animated.gif) !important;
+}
+
+.scEditorSectionPanel
+{
+  background: url(http://www.freeppt.net/background/christmas-funny-backgrounds-for-powerpoint.jpg) !important;
+}
+
+.scRibbonToolbarStrip, .scRibbonToolbarContextualStrip
+{
+  background: url(http://b.dryicons.com/images/icon_sets/christmas_surprise_four_in_one/png/64x64/christmas_mistletoe.png) !important;
+  background-repeat: repeat-x !important;
+}
+
+#Wallpaper
+{
+  display: block !important;
+}
